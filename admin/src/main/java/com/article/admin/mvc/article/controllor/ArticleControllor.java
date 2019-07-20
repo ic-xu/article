@@ -9,7 +9,6 @@ import com.article.admin.mvc.article.entity.Article;
 import com.article.admin.mvc.article.entity.ArticleContent;
 import com.article.admin.mvc.article.service.ArticleServerImp;
 import com.article.admin.mvc.comment.service.ReplyCommentService;
-import com.article.admin.mvc.community.service.LikesServerImp;
 import com.article.admin.utils.IdWorker;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,22 +24,33 @@ import java.util.List;
 @RequestMapping("/article")
 public class ArticleControllor {
 
-    @Autowired
-    UserServiceImp userServiceImp;
+    private UserServiceImp userServiceImp;
 
-    @Autowired
     private ArticleServerImp articleServerImp;
 
-
-    @Autowired
-    private LikesServerImp likesServerImp;
-
-    @Autowired
     private ReplyCommentService replyCommentService;
 
-    @Autowired
     private CommentService commentService;
 
+    @Autowired
+    public void setUserServiceImp(UserServiceImp userServiceImp) {
+        this.userServiceImp = userServiceImp;
+    }
+
+    @Autowired
+    public void setReplyCommentService(ReplyCommentService replyCommentService) {
+        this.replyCommentService = replyCommentService;
+    }
+
+    @Autowired
+    public void setCommentService(CommentService commentService) {
+        this.commentService = commentService;
+    }
+
+    @Autowired
+    public void setArticleServerImp(ArticleServerImp articleServerImp) {
+        this.articleServerImp = articleServerImp;
+    }
 
     @ApiOperation("发表文章接口")
     @ApiResponses({
@@ -48,12 +58,12 @@ public class ArticleControllor {
             @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
     })
     @PostMapping("/saveArticle")
-    public BaseResponseDto saveArticle(@RequestParam(required = true, defaultValue = "") String articleTitle,
-                                       @RequestParam(required = true, defaultValue = "") String articleDescribe,
-                                       @RequestParam(required = true, defaultValue = "") String userId,
+    public BaseResponseDto saveArticle(@RequestParam(defaultValue = "") String articleTitle,
+                                       @RequestParam(defaultValue = "") String articleDescribe,
+                                       @RequestParam(defaultValue = "") String userId,
                                        @RequestParam(required = false, defaultValue = "") String keyWord, String tags,
                                        @RequestParam(required = false, defaultValue = "") String image,
-                                       @RequestParam(required = true, defaultValue = "") String content) {
+                                       @RequestParam(defaultValue = "") String content) {
 
         Article article = new Article();
         article.setArticleId("A" + new IdWorker().nextId() + "" + System.currentTimeMillis());
@@ -86,7 +96,7 @@ public class ArticleControllor {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "page", value = "所请求的是第几页，从0开始，默认是0页", dataType = "int"),
             @ApiImplicitParam(name = "pageSize", value = "请求的每一页的大小，默认是20", dataType = "int"),
-            @ApiImplicitParam(name = "tags", value = "标签", dataType = "string", defaultValue = ""),
+            @ApiImplicitParam(name = "tags", value = "标签", dataType = "string", defaultValue = " "),
             @ApiImplicitParam(name = "status", value = "审核状态", dataType = "int", defaultValue = "-1")
     })
     @GetMapping("/getAllArticle")
@@ -116,29 +126,29 @@ public class ArticleControllor {
     /**
      * 根据状态查找文章
      *
-     * @param status
-     * @param pageSize
-     * @param pageNumber
-     * @return
+     * @param status     zhuangtai
+     * @param pageSize   pageSize
+     * @param pageNumber pageNumber
+     * @return return
      */
     @ApiOperation("根据状态查找文章")
     @GetMapping("/findAllByStatus")
     public BaseResponseDto findAllByStatus(@RequestParam(defaultValue = "-1") int status,
                                            @RequestParam(defaultValue = "20") int pageSize,
                                            @RequestParam(defaultValue = "0") int pageNumber) {
-        PageRequest pageRequest = new PageRequest(pageNumber, pageSize, new Sort(Sort.Order.desc("happenTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Order.desc("happenTime")));
         return BaseResponseDto.success(articleServerImp.findAllByStatus(status, pageRequest));
     }
 
 
     /**
      * 审核文章
+     *
      * @param articleId 文章Id
-     * @return
      */
     @ApiOperation("审核文章")
     @PostMapping("/statusChange")
-    public BaseResponseDto statusChange(@RequestParam(required = true) String articleId) {
+    public BaseResponseDto statusChange(@RequestParam() String articleId) {
 
         Article oneArticle = articleServerImp.getOneArticle(articleId);
         oneArticle.setStatus(1);
@@ -149,20 +159,20 @@ public class ArticleControllor {
 
     @ApiOperation("删除文章接口")
     @GetMapping("/deleteArticle")
-    public BaseResponseDto deleteArticle(String article,String userId) {
+    public BaseResponseDto deleteArticle(String article, String userId) {
 
         Article byArticleId = articleServerImp.findByArticleId(article);
-        if(null!=article&&null!=byArticleId.getMember()){
-            if(byArticleId.getMember().getUserId().equals(userId)){
+        if (null != article && null != byArticleId.getMember()) {
+            if (byArticleId.getMember().getUserId().equals(userId)) {
                 articleServerImp.delete(article);
                 //分别删除评论信息和回复信息
                 commentService.deleteAllByArticleId(article);
                 replyCommentService.deleteAllByArticleId(article);
                 return BaseResponseDto.success();
-            }else
-                return BaseResponseDto.error(400,"该用户没有权限删除该文章");
+            } else
+                return BaseResponseDto.error(400, "该用户没有权限删除该文章");
         }
-        return BaseResponseDto.error(400,"没有相关文章");
+        return BaseResponseDto.error(400, "没有相关文章");
     }
 
 
