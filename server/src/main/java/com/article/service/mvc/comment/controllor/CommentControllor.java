@@ -1,12 +1,12 @@
 package com.article.service.mvc.comment.controllor;
 
+import com.article.service.mvc.member.entity.Member;
 import com.article.service.utils.BaseResponseDto;
 import com.article.service.utils.IdWorker;
 import com.article.service.mvc.comment.entity.Comment;
 import com.article.service.mvc.comment.entity.ReplyComment;
 import com.article.service.mvc.comment.service.CommentService;
 import com.article.service.mvc.comment.service.ReplyCommentService;
-import com.article.service.mvc.user.entity.Member;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -133,7 +133,7 @@ public class CommentControllor {
                                              @RequestParam(defaultValue = "20", name = "pageSize") int pageSize,
                                              @RequestParam(name = "pageNumber", defaultValue = "0") int pageNumber) {
 
-        PageRequest pageRequest = new PageRequest(pageNumber, pageSize, new Sort(Sort.Order.desc("createTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Order.desc("createTime")));
         Page<Comment> allByArticleId = commentService.findAllByArticleId(articleId, pageRequest);
         List<Object> all = new ArrayList<>();
         allByArticleId.getContent().forEach(mb -> {
@@ -168,7 +168,7 @@ public class CommentControllor {
                                                   @RequestParam(name = "pageNumber", defaultValue = "0") int pageNumber) {
         if (pageNumber < 0)
             pageNumber = 0;
-        PageRequest pageRequest = new PageRequest(pageNumber, pageSize, new Sort(Sort.Order.desc("createTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Order.desc("createTime")));
         Page<ReplyComment> allByArticleIdAndToMemberId = replyCommentService.findAllByArticleIdAndToMemberId(articleId,
                 toUserId, pageRequest);
         return BaseResponseDto.success(allByArticleIdAndToMemberId.getContent());

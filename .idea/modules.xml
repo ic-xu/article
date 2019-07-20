@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-servier/admin-servier.iml" filepath="$PROJECT_DIR$/admin-servier/admin-servier.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-geteway/api-geteway.iml" filepath="$PROJECT_DIR$/api-geteway/api-geteway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-geteway/api-geteway.iml" filepath="$PROJECT_DIR$/api-geteway/api-geteway.iml" />
       <module fileurl="file://$PROJECT_DIR$/article.iml" filepath="$PROJECT_DIR$/article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-servier/cx.iml" filepath="$PROJECT_DIR$/admin-servier/cx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_service/eureka_service.iml" filepath="$PROJECT_DIR$/eureka_service/eureka_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_service/eureka_service.iml" filepath="$PROJECT_DIR$/eureka_service/eureka_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
     </modules>

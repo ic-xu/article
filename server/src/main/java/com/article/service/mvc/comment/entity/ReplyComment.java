@@ -1,6 +1,6 @@
 package com.article.service.mvc.comment.entity;
 
-import com.article.service.mvc.user.entity.Member;
+import com.article.service.mvc.member.entity.Member;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 

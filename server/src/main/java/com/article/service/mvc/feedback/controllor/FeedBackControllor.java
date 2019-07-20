@@ -34,7 +34,7 @@ public class FeedBackControllor {
                                        @RequestParam(name = "pageNumber", defaultValue = "0") int pageNumber,
                                        @RequestParam(name = "pageSize", defaultValue = "20") int pageSize) {
 
-        PageRequest pageRequest = new PageRequest(pageNumber, pageSize, new Sort(Sort.Order.desc("createTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Order.desc("createTime")));
         Page<FeedBack> allByStatus = feedBackService.findAllByStatus(userId, pageRequest);
 
         List<FeedBack> allMessage = new ArrayList<>();

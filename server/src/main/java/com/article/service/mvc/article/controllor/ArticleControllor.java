@@ -2,6 +2,8 @@ package com.article.service.mvc.article.controllor;
 
 
 import com.article.service.mvc.comment.service.ReplyCommentService;
+import com.article.service.mvc.member.entity.Member;
+import com.article.service.mvc.member.service.MemberService;
 import com.article.service.utils.BaseGetData;
 import com.article.service.utils.BaseResponseDto;
 import com.article.service.utils.IdWorker;
@@ -9,8 +11,6 @@ import com.article.service.mvc.article.entity.Article;
 import com.article.service.mvc.article.entity.ArticleContent;
 import com.article.service.mvc.article.service.ArticleServerImp;
 import com.article.service.mvc.comment.service.CommentService;
-import com.article.service.mvc.user.entity.Member;
-import com.article.service.mvc.user.service.UserServiceImp;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/article")
 public class ArticleControllor {
 
-    private UserServiceImp userServiceImp;
+    private MemberService memberService;
 
     private ArticleServerImp articleServerImp;
 
@@ -45,8 +45,8 @@ public class ArticleControllor {
     }
 
     @Autowired
-    public void setUserServiceImp(UserServiceImp userServiceImp) {
-        this.userServiceImp = userServiceImp;
+    public void setMemberService(MemberService memberService) {
+        this.memberService = memberService;
     }
 
     /**
@@ -126,7 +126,7 @@ public class ArticleControllor {
     public BaseResponseDto getArticleById(String id) {
         Article oneArticle = articleServerImp.getOneArticle(id);
         if (null != oneArticle.getMember()) {
-            oneArticle.setMember(userServiceImp.getMemberById(oneArticle.getMember().getUserId()));
+            oneArticle.setMember(memberService.getMemberById(oneArticle.getMember().getUserId()));
         }
         ArticleContent byArticleId = articleServerImp.findContentByArticleId(id);
         oneArticle.setContent(byArticleId.getContent());

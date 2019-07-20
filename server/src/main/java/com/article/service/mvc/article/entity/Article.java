@@ -1,6 +1,6 @@
 package com.article.service.mvc.article.entity;
 
-import com.article.service.mvc.user.entity.Member;
+import com.article.service.mvc.member.entity.Member;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

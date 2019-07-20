@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/controllor/QuestControllor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Quest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/QuestContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestContentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseGetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/MemberData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/service/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/service/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/META-INF/server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/controllor/ArticleControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/controllor/ArticleControllor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/controllor/CommentControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/controllor/CommentControllor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/ReplyComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/ReplyComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/controllor/FeedBackControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/controllor/FeedBackControllor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/entity/Member$MemberBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/entity/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/service/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/service/UserServiceImp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,35 +98,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+            <state relative-caret-position="249">
+              <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="214">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,36 +121,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1682#1683#0" expanded="true" />
-                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1416">
-              <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,17 +152,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="-559">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="181">
+              <caret line="135" column="71" selection-start-line="135" selection-start-column="71" selection-end-line="135" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/config/Swagger2Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,28 +206,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleContentRepository.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            <state relative-caret-position="110">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -258,19 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/CommentRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/article/controllor/ArticleControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/banner/controllor/BannerControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/controllor/CommentControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/controllor/CommentControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/community/controllor/TagsControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/banner/controllor/BannerControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/community/controllor/TabsControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/test/mysql_mybatis_dao/CategortyDao.java" />
-        <option value="$PROJECT_DIR$/eureka_service/pom.xml" />
-        <option value="$PROJECT_DIR$/admin-servier/src/main/java/com/admin/cx/AdminServerApplication.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/utils/UploadUtils.java" />
         <option value="$PROJECT_DIR$/admin-servier/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/admin-servier/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -306,9 +309,22 @@
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" />
       </list>
     </option>
   </component>
@@ -345,10 +361,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="41" />
-    <option name="y" value="290" />
-    <option name="width" value="1385" />
-    <option name="height" value="876" />
+    <option name="x" value="107" />
+    <option name="y" value="89" />
+    <option name="width" value="1717" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -372,6 +388,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -433,7 +450,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -444,7 +461,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="controllor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -456,7 +473,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -468,7 +485,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -480,7 +497,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="start_up" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -491,7 +508,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="start_up" type="462c0819:PsiDirectoryNode" />
+              <item name="controllor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -502,8 +520,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="start_up" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -513,7 +531,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="start_up" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -527,7 +547,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,16 +574,16 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/community01/src/main/java/com/tcl/community/mvc/user/service" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/ddd" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp.abc" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp/WEB-INF/jsp" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.article.admin" />
       <recent name="com.tcl.community" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc" />
+      <recent name="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc" />
+      <recent name="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc" />
+      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/img/image/jpeg" />
+      <recent name="$PROJECT_DIR$/admin/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.article.service.mvc.qa.service" />
@@ -573,12 +592,12 @@
       <recent name="com.tcl.community.service.mvc.article.service" />
       <recent name="com.tcl.community.service.mvc.article.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc" />
-      <recent name="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc" />
-      <recent name="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc" />
-      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/img/image/jpeg" />
-      <recent name="$PROJECT_DIR$/admin/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/community01/src/main/java/com/tcl/community/mvc/user/service" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/ddd" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp.abc" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp/WEB-INF/jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -714,14 +733,15 @@
       <workItem from="1563590679694" duration="368000" />
       <workItem from="1563595369665" duration="82000" />
       <workItem from="1563595489184" duration="11010000" />
+      <workItem from="1563610903577" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409917000" />
+    <option name="totallyTimeSpent" value="411035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1385" height="904" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -730,7 +750,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.1917603" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19420601" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32769832" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.37515685" />
@@ -739,7 +759,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32833958" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32833958" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.34880802" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.34519956" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.5370138" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.77415305" />
@@ -804,105 +824,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/service/CategoryFirstService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/CategortyDao.java" />
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/config/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_service/src/main/java/springclould/eureka_service/EurekaServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/controllor/AboutControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/explore/entity/Topics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/controllor/FileUploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-549">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/Images.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/ImageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/AppConfig.java" />
     <entry file="file://$PROJECT_DIR$/admin-servier/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -933,22 +854,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/sql/sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseResponseDto.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -992,20 +899,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Member.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/UserServiceImp.java" />
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseGetData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1094,14 +989,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="176">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="198">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1109,10 +1004,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2354">
+          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="242">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1121,75 +1030,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleContentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="110">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="198">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="1496">
           <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="-1122">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
             <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/T.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/MemberData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="75" column="46" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/config/Swagger2Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="135" column="71" selection-start-line="135" selection-start-column="71" selection-end-line="135" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
           </folding>
         </state>
       </provider>

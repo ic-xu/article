@@ -21,11 +21,14 @@ import java.util.Optional;
 @Api(tags = "用户反馈信息相关")
 public class FeedBackControllor {
 
+    private FeedBackService feedBackService;
+
     @Autowired
-    FeedBackService feedBackService;
+    public void setFeedBackService(FeedBackService feedBackService) {
+        this.feedBackService = feedBackService;
+    }
 
-
-//    /**
+    //    /**
 //     * 客户端页面获取反馈的信息
 //     *
 //     * @return
@@ -48,7 +51,6 @@ public class FeedBackControllor {
     /**
      * 客户端页面获取反馈的信息
      *
-     * @return
      */
     @GetMapping("/getFeedBackAll")
     @ApiOperation("后台获取所有反馈列表")
@@ -61,7 +63,7 @@ public class FeedBackControllor {
             pageNumber = 0;
         if (pageSize < 0)
             pageSize = 20;
-        PageRequest pageRequest = new PageRequest(pageNumber,pageSize,new Sort(Sort.Order.desc("createTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber,pageSize,Sort.by(Sort.Order.desc("createTime")));
 
         return BaseResponseDto.success(feedBackService.findAll(status, pageRequest));
     }
@@ -70,7 +72,6 @@ public class FeedBackControllor {
     /**
      * 客户端页面获取反馈的信息
      *
-     * @return
      */
     @PostMapping("/getAllByUserId")
     @ApiOperation("获取单个用户的反馈记录")
@@ -94,27 +95,27 @@ public class FeedBackControllor {
     /**
      * 客户端页面获取反馈的信息
      *
-     * @return
      */
     @PostMapping("/insertFeedBack")
     @ApiOperation("回复反馈信息")
-    public BaseResponseDto insertFeedBack(@RequestParam(name = "id", required = true) String id,
+    public BaseResponseDto insertFeedBack(@RequestParam(name = "id") String id,
                                           @RequestParam(name = "context", defaultValue = "") String context) {
 
         //先跟新反馈的状态
         Optional<FeedBack> feedB = feedBackService.findById(id);
-        FeedBack feedBack1 = feedB.get();
-        feedBack1.setStatus(1);
-        feedBackService.save(feedBack1);
-
-
+        FeedBack feedBack1;
         FeedBack feedBack = new FeedBack();
-        feedBack.setCreateTime(System.currentTimeMillis());
-        feedBack.setToUserId(feedBack1.getFromUserId());
-        feedBack.setFromUserId("admin");
-        feedBack.setContent(context);
-        feedBack.setStatus(1);
-        feedBack.setId(new IdWorker().nextId() + "" + System.currentTimeMillis());
+        if(feedB.isPresent()){
+             feedBack1 = feedB.get();
+            feedBack1.setStatus(1);
+            feedBackService.save(feedBack1);
+            feedBack.setCreateTime(System.currentTimeMillis());
+            feedBack.setToUserId(feedBack1.getFromUserId());
+            feedBack.setFromUserId("admin");
+            feedBack.setContent(context);
+            feedBack.setStatus(1);
+            feedBack.setId(new IdWorker().nextId() + "" + System.currentTimeMillis());
+        }
         return BaseResponseDto.success(feedBackService.save(feedBack));
     }
 
