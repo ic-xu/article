@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eruke_service/target/" />
+    <ignored path="$PROJECT_DIR$/eruka_client/target/" />
+    <ignored path="$PROJECT_DIR$/eruka_client_service/target/" />
+    <ignored path="$PROJECT_DIR$/eureka_service/target/" />
+    <ignored path="$PROJECT_DIR$/eureka_client_01/target/" />
+    <ignored path="$PROJECT_DIR$/eureka_client_02/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon_client_01/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin_service/target/" />
+    <ignored path="$PROJECT_DIR$/api-geteway/target/" />
+    <ignored path="$PROJECT_DIR$/apollo-test/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/community02/target/" />
+    <ignored path="$PROJECT_DIR$/community01/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/admin/target/" />
+    <ignored path="$PROJECT_DIR$/admin-servier/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bigdata_analyze@10.92.33.136" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bigdata_analyze@10.92.33.136" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bigdata_analyze@10.92.33.136" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bigdata_analyze: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/IdWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseResponseDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>G:/logs</find>
+      <find>ribbon</find>
+      <find>eure</find>
+      <find>eu</find>
+      <find>`</find>
+      <find>Post</find>
+      <find>userRepository</find>
+      <find>post</find>
+      <find>\&quot;</find>
+      <find>fastjson</find>
+      <find>lookupOperation</find>
+      <find>gsq</find>
+      <find>main</find>
+      <find>chart1</find>
+      <find>63342</find>
+      <find>../../json/images.json</find>
+      <find>content</find>
+      <find>replyUserId</find>
+      <find>statu</find>
+      <find>评论</find>
+      <find>findByArticleId</find>
+      <find>@Cache</find>
+      <find>key</find>
+      <find>s3</find>
+      <find>secretKey</find>
+      <find>Key</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>invitation</replace>
+      <replace>article</replace>
+      <replace>'</replace>
+      <replace>留言</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/eureka_client_01/src/main/java/com/tcl/community</dir>
+      <dir>$PROJECT_DIR$/community01/src/main/resources/static</dir>
+      <dir>$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/service/CommentRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/service/ReplyCommentRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/service/ReplyCommentService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/utils/BaseResponseDto.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/article/service/ArticleServerImp.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/article/service/ArticleServerImp.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/ReplyCommentRepository.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/ReplyCommentService.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/entity/ReplyComment.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/community/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/service/CommentRepository.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/banner/controllor/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/comment/controllor/CommentControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc/comment/controllor/CommentControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/community/controllor/TagsControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/banner/controllor/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc/community/controllor/TabsControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/test/mysql_mybatis_dao/CategortyDao.java" />
+        <option value="$PROJECT_DIR$/eureka_service/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-servier/src/main/java/com/admin/cx/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/utils/UploadUtils.java" />
+        <option value="$PROJECT_DIR$/admin-servier/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin-servier/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/S3Util.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/controllor/FileUploader.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/image/controllor/FileUploader.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/service/BootUpImgImp.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/note.txt" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/controllor/CommentControllor.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/mysql_mybatis_dao/CategortyDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/service/CategortyDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/CategortyDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="adminServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="adminServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="63" />
+    <option name="y" value="-4" />
+    <option name="width" value="1617" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tcl-community" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api-geteway" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="tcl-community" type="58d84e3e:PackageViewProjectNode" />
+              <item name="api-geteway" type="616d4139:PackageViewModuleNode" />
+              <item name="springclould.apigeteway" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556585979020" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.article.admin" />
+      <recent name="com.tcl.community" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc" />
+      <recent name="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc" />
+      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/img/image/jpeg" />
+      <recent name="$PROJECT_DIR$/admin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tcl.community.service.mvc.comment.service" />
+      <recent name="com.tcl.community.service.mvc.article.service" />
+      <recent name="com.tcl.community.service.mvc.article.entity" />
+      <recent name="com.tcl.community.admin.mvc.article.service" />
+      <recent name="com.tcl.community.admin.mvc.article.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/community01/src/main/java/com/tcl/community/mvc/user/service" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/ddd" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp.abc" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp/WEB-INF/jsp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication (1)">
+    <configuration name="AdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.article.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.community.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-servier" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.admin.cx.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGetewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-geteway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springclould.apigeteway.ApiGetewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springclould.eureka_service.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.article.service.ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcl.community.service.ServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGetewayApplication" />
+      <item itemvalue="Spring Boot.ServiceApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.AdminApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceApplication (1)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="" />
+      <created>1552876413216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552876413216</updated>
+      <workItem from="1552876417724" duration="26986000" />
+      <workItem from="1552959336127" duration="13000" />
+      <workItem from="1552961431452" duration="4634000" />
+      <workItem from="1552975706756" duration="1546000" />
+      <workItem from="1553051432956" duration="9678000" />
+      <workItem from="1553130514927" duration="4950000" />
+      <workItem from="1553151836287" duration="15658000" />
+      <workItem from="1553484082293" duration="10791000" />
+      <workItem from="1553505977634" duration="2398000" />
+      <workItem from="1553739041289" duration="617000" />
+      <workItem from="1553740402674" duration="700000" />
+      <workItem from="1553825098513" duration="3748000" />
+      <workItem from="1554177490370" duration="592000" />
+      <workItem from="1556072940133" duration="4037000" />
+      <workItem from="1556087373979" duration="103000" />
+      <workItem from="1556099522018" duration="280000" />
+      <workItem from="1556100181251" duration="95000" />
+      <workItem from="1556100839900" duration="10571000" />
+      <workItem from="1556158047501" duration="7428000" />
+      <workItem from="1556167171407" duration="75361000" />
+      <workItem from="1556590309263" duration="576000" />
+      <workItem from="1557210107220" duration="11794000" />
+      <workItem from="1557222365917" duration="2145000" />
+      <workItem from="1557230307262" duration="5924000" />
+      <workItem from="1557300004464" duration="1275000" />
+      <workItem from="1557395347413" duration="3395000" />
+      <workItem from="1557709473283" duration="1947000" />
+      <workItem from="1557711502988" duration="8025000" />
+      <workItem from="1557729499961" duration="15463000" />
+      <workItem from="1557745323257" duration="7000" />
+      <workItem from="1557745352514" duration="25752000" />
+      <workItem from="1557882473264" duration="1789000" />
+      <workItem from="1557978681375" duration="595000" />
+      <workItem from="1557989652550" duration="1322000" />
+      <workItem from="1558064563714" duration="6863000" />
+      <workItem from="1558082220356" duration="2605000" />
+      <workItem from="1558320141014" duration="2634000" />
+      <workItem from="1558343202847" duration="5979000" />
+      <workItem from="1558438205487" duration="1306000" />
+      <workItem from="1558439624156" duration="369000" />
+      <workItem from="1558440025648" duration="1045000" />
+      <workItem from="1558441078367" duration="24000" />
+      <workItem from="1558486741221" duration="19098000" />
+      <workItem from="1558518232867" duration="23420000" />
+      <workItem from="1558596579247" duration="15967000" />
+      <workItem from="1558678786535" duration="12800000" />
+      <workItem from="1558918414832" duration="6133000" />
+      <workItem from="1559111023936" duration="11821000" />
+      <workItem from="1559265482800" duration="1981000" />
+      <workItem from="1559269295963" duration="966000" />
+      <workItem from="1560321791665" duration="160000" />
+      <workItem from="1560498764697" duration="2798000" />
+      <workItem from="1560577844037" duration="225000" />
+      <workItem from="1560578098011" duration="1866000" />
+      <workItem from="1560822251903" duration="617000" />
+      <workItem from="1560912945219" duration="384000" />
+      <workItem from="1561450673731" duration="66000" />
+      <workItem from="1561779450930" duration="333000" />
+      <workItem from="1561780275244" duration="31000" />
+      <workItem from="1561781082882" duration="1426000" />
+      <workItem from="1561941848191" duration="1449000" />
+      <workItem from="1562205237547" duration="1343000" />
+      <workItem from="1562207485562" duration="10493000" />
+      <workItem from="1562805738913" duration="4060000" />
+      <workItem from="1563590679694" duration="368000" />
+      <workItem from="1563595369665" duration="82000" />
+      <workItem from="1563595489184" duration="765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="399672000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-11" width="1387" height="912" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.33108613" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.15558344" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32833958" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32833958" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6951066" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.5370138" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3174404" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.6167291" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.30064517" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32903227" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32981133" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.32981133" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.19625469" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Redis Servers" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.31460676" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32769832" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3400251" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32833958" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32833958" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6951066" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.5380774" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.7026349" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.6167291" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.30064517" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32903227" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32981133" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.32981133" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.19625469" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Redis Servers" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/ApiGetewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/controllor/CommentControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="128" column="61" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-servier/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="43" column="19" selection-start-line="20" selection-start-column="3" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/BaseResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/AppConfig.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/entity/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/service/AboutRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/service/AboutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/ArticleContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/ArticleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/controllor/BootImgControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/sql/sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/service/CategoryFirstService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/CategortyDao.java" />
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/config/Swagger2Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_service/src/main/java/springclould/eureka_service/EurekaServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/controllor/AboutControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/explore/entity/Topics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/controllor/FileUploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/Images.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/ImageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/AppConfig.java" />
+    <entry file="file://$PROJECT_DIR$/admin-servier/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-servier/src/main/java/com/admin/cx/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-servier/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/sql/sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>community01:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>api-geteway</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

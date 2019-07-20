@@ -1,0 +1,9 @@
+server:
+  port: 8879
+spring:
+  application:
+    name: admin-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://18.224.251.178:8099/eureka/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server" />
+        <module name="eureka_service" />
+        <module name="admin-servier" />
+        <module name="api-geteway" />
+        <module name="admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="admin-servier" target="1.8" />
+      <module name="api-geteway" target="1.8" />
+      <module name="apollo-test" target="1.8" />
+      <module name="article" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eruka_client_service" target="1.8" />
+      <module name="eruke_service" target="1.8" />
+      <module name="eureka_service" target="1.8" />
+      <module name="ribbon_client_01" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="zipkin_service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="admin-servier" options="-parameters" />
+      <module name="api-geteway" options="-parameters" />
+      <module name="apollo-test" options="-parameters" />
+      <module name="article" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="eruka_client_service" options="-parameters" />
+      <module name="eruke_service" options="-parameters" />
+      <module name="eureka_service" options="-parameters" />
+      <module name="ribbon_client_01" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="zipkin_service" options="" />
+    </option>
+  </component>
+</project>

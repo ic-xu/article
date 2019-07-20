@@ -1,0 +1,42 @@
+#
+spring:
+  profiles:
+    active: dev
+  mvc:
+  #    view:
+  #      prefix: webapp/WEB-INF/jsp/
+  #      suffix: .jsp
+
+  #    static-path-pattern: /static/**
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: admin
+  #文件上传地址信息
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      # 单个文件的最大值
+      max-request-size: 10MB
+      # 上传文件总的最大值
+
+
+swagger:
+  base-package: com.articke.admin.mvc
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:10000/eureka/
+
+
+#mybatis:
+#  type-aliases-package: com.article.admin.mvc.*
+#  mapper-locations: com.article.admin.mvc.*
+#
+
+server:
+  port: 8990
+
+

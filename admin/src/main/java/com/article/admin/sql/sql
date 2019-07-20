@@ -1,0 +1,90 @@
+-- 一级分类
+CREATE TABLE `tags`
+(
+  `id`           int(10) unsigned zerofill NOT NULL AUTO_INCREMENT,
+  `categoryName` varchar(255)              NOT NULL,
+  `img`        varchar(255) DEFAULT NULL,
+  `url`          varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+
+-- 二级分类
+CREATE TABLE `categrotySecondary`
+(
+  `id`              int(12)      NOT NULL AUTO_INCREMENT,
+  `categoryName`    varchar(255) NOT NULL,
+  `url`             varchar(255) DEFAULT NULL,
+  `invitationImgSmall`    varchar(255) DEFAULT NULL,
+  `categoryFirstId` int(12)      DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+
+-- 帖子记录表
+CREATE TABLE `invitation`
+(
+  `invitationId`       int(20)      NOT NULL AUTO_INCREMENT,
+  `invitationName`     varchar(255) NOT NULL,
+  `invitationImgSmall` varchar(255) DEFAULT NULL,
+  `invitationDescribe` varchar(255) DEFAULT NULL,
+  `originator`   varchar(255) NOT NULL,
+  `content`      longtext     NOT NULL,
+  `happenTime`   mediumtext,
+  `categrotyId`  mediumtext,
+  `followId` longtext,
+  PRIMARY KEY (`invitationId`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+
+# 评论表
+CREATE TABLE `comment`
+(
+  `commentId`       int(20)      NOT NULL AUTO_INCREMENT,
+  `userId`     varchar(25) NOT NULL,
+  `invitationId` int NOT NULL,
+  `content` varchar(1000) DEFAULT NULL,
+  `commentDate` timestamp DEFAULT NULL,
+  `status` int(2) null,
+  PRIMARY KEY (`commentId`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+# 评论表
+CREATE TABLE `reply`
+(
+  `replyId`       int(20)   NOT NULL AUTO_INCREMENT,
+  `commentId`     int(20)  NOT NULL,
+  `content` varchar(1000) DEFAULT NULL,
+  `replyDate` timestamp DEFAULT NULL,
+  `status` int(2) null,
+  PRIMARY KEY (`replyId`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+# 用户信息表
+CREATE TABLE `user`
+(
+  `userId`       int(25)      NOT NULL AUTO_INCREMENT,
+  `userName`     varchar(25) NOT NULL,
+  `nikeName`     varchar(25) NOT NULL,
+  `userImgSmall` varchar(255) DEFAULT NULL,
+  `userDescribe` varchar(255) DEFAULT NULL,
+  `regtime`   mediumtext,
+  PRIMARY KEY (`userId`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
+
+
+# 用户关系表
+CREATE TABLE `userRelations`
+(
+  `relationId`       int(25)      NOT NULL AUTO_INCREMENT,
+  `userId`     varchar(25) NOT NULL,
+  `targetId`     varchar(25) NOT NULL,
+  PRIMARY KEY (`relationId`)
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8;
