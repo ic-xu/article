@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/MemberData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/entity/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/service/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/service/UserServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/META-INF/server.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/controllor/ArticleControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/controllor/ArticleControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/controllor/CommentControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/controllor/CommentControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/ReplyComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/ReplyComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/controllor/FeedBackControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/controllor/FeedBackControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/entity/Member$MemberBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/entity/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/service/MemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/user/service/UserServiceImp.class" beforeDir="false" />
-    </list>
+    <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eruke_service/target/" />
@@ -173,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            <state relative-caret-position="92">
+              <caret line="76" selection-start-line="76" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#891#892#0" expanded="true" />
@@ -733,16 +699,15 @@
       <workItem from="1563590679694" duration="368000" />
       <workItem from="1563595369665" duration="82000" />
       <workItem from="1563595489184" duration="11010000" />
-      <workItem from="1563610903577" duration="1118000" />
+      <workItem from="1563610903577" duration="1366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411035000" />
+    <option name="totallyTimeSpent" value="411283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -750,10 +715,10 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19420601" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.29881975" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32769832" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.37515685" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.6515642" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32833958" />
@@ -1224,8 +1189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state relative-caret-position="92">
+          <caret line="76" selection-start-line="76" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#891#892#0" expanded="true" />
