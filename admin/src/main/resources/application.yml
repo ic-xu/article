@@ -23,7 +23,7 @@ spring:
 
 
 swagger:
-  base-package: com.articke.admin.mvc
+  base-package: com.article.admin.mvc
 
 #eureka:
 #  client:

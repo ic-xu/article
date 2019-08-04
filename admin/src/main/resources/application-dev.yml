@@ -29,7 +29,7 @@ spring:
 #mongoDB数据库配置信息
   data:
     mongodb:
-      host: 127.0.0.1
+      host: localhost
       port: 27017
       database: local
 #      password:

@@ -18,16 +18,15 @@ public class UploadUtils {
      * @throws IOException
      */
     public static String fileUpload01(MultipartFile file) throws IOException {
-        System.err.println("上传文件的类型======————>>>>>>>" + file.getContentType());
 
         String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."), file.getOriginalFilename().length());
 
 
         String id = new IdWorker().nextId() + "-" + System.currentTimeMillis();
 
-        String name = file.getContentType() + "/" + id + end;
+        String name = "img/"+file.getContentType() + "/" + id + end;
 
-        Resource resource = new ClassPathResource("static/img/");
+        Resource resource = new ClassPathResource("static/");
         File filePath = resource.getFile();
         if (!filePath.exists()) {
             filePath.mkdirs();

@@ -7,11 +7,13 @@ import org.springframework.data.annotation.Id;
 public class Banner {
 
     @Id
-    private String id;
+    private long id;
 
-    private String imgUrl;
+    private String url;
 
-    private String link;
+    private String imagePath;
+
+    private String title;
 
     private int status;
 
