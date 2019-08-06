@@ -1,7 +1,6 @@
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource    # 配置当前要使用的数据源的操作类型
-    driver-class-name: org.gjt.mm.mysql.Driver      # 配置MySQL的驱动程序类
     url: jdbc:mysql://10.92.33.136:3306/oneaccount           # 数据库连接地址
     username: root                                  # 数据库用户名
     password: tcl@123                                  # 数据库连接密码

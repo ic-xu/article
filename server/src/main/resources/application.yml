@@ -14,7 +14,7 @@ spring:
     name: service
 
 swagger:
-  base-package: com.article.service.mvc
+  base-package: com
 
 eureka:
   client:

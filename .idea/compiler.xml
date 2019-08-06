@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="admin" />
+        <module name="common" />
+        <module name="eureka_service" />
         <module name="admin-servier" />
         <module name="api-geteway" />
-        <module name="eureka_service" />
         <module name="server" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="api-geteway" target="1.8" />
       <module name="apollo-test" target="1.8" />
       <module name="article" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eruka_client_service" target="1.8" />
       <module name="eruke_service" target="1.8" />
@@ -35,6 +37,7 @@
       <module name="api-geteway" options="-parameters" />
       <module name="apollo-test" options="-parameters" />
       <module name="article" options="-parameters" />
+      <module name="common" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eruka_client_service" options="-parameters" />
       <module name="eruke_service" options="-parameters" />

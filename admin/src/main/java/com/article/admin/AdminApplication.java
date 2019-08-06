@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableSwagger2Doc
-@EnableCaching
+@ComponentScan(basePackages = "com")
 public class AdminApplication {
 
 

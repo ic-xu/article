@@ -2,24 +2,315 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/CommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/entity/ArticleData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/TestMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/FeedBackControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_api_common_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_gson_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_gax_1_35_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_gax_grpc_1_35_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_gax_httpjson_0_52_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_firestore_v1beta1_0_42_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_1_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_iam_v1_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_storage_v1_rev20181013_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auth_google_auth_library_credentials_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auth_google_auth_library_oauth2_http_0_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_value_auto_value_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_core_1_59_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_core_grpc_1_59_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_core_http_1_59_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_firestore_0_77_0_beta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_storage_1_59_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_firebase_firebase_admin_6_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_appengine_1_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_25_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_auth_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_shaded_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_grpc_metrics_0_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_grpc_util_0_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_threeten_threetenbp_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/entity/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/controllor/AboutControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/AboutControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/entity/About.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/service/AboutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/service/AboutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/service/AboutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/service/AboutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/ArticleControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/entity/ArticleContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/entity/ArticleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleServerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/BannerControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/entity/Banner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/service/BannerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/banner/service/BannerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/service/BannerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/banner/service/BannerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/BootImgControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/entity/BootUpImg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/service/BootUpImgImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/boot/service/BootUpImgImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/service/BootUpImgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/boot/service/BootUpImgRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/controllor/CommentControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/CommentControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/entity/ReplyComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/entity/ReplyComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/service/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/service/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/service/ReplyCommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/service/ReplyCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/service/ReplyCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/LikesControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/LikesControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/TabsControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/TabsControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/TagsControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/TagsControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/entity/Likes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/entity/Tabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/entity/Tabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/entity/Tags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/LikesServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/LikesServerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/TabsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/TabsServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/TagsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/TagsServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/repository/LikesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/repository/LikesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/repository/TabsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/repository/TabsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/service/repository/TagsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/repository/TagsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/explore/entity/Topics.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/explore/entity/Topics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/entity/FeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/entity/FeedBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/entity/ReplyFeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/entity/ReplyFeedBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/service/FeedBackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/service/FeedBackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/service/FeedBackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/service/FeedBackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/service/ReplyFeedBackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/service/ReplyFeedBackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/service/ReplyFeedBackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/feedback/service/ReplyFeedBackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/image/controllor/FileUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/image/controllor/FileUploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/image/entity/ImageData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/image/entity/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/image/entity/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/user/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/user/service/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/user/service/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/TestMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/TestMongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/BaseResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/BaseResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/IdWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.iml" beforeDir="false" afterPath="$PROJECT_DIR$/article.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/entity/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/controllor/AboutControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/AboutControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/entity/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/entity/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/service/AboutRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/service/AboutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/ArticleContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/entity/ArticleContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/ArticleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleContentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleContentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/entity/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/banner/entity/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/service/BannerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/service/BannerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/controllor/BootImgControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/BootImgControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/entity/BootUpImg.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/boot/entity/BootUpImg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/service/BootUpImgImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/service/BootUpImgRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/CommentControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/service/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/service/ReplyCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/comment/service/ReplyCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/service/ReplyCommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/LikesControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/LikesControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/TabsControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/TabsControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/TagsControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/TagsControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/entity/Likes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/entity/Likes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/entity/Tabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/entity/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/entity/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/LikesServerImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/TabsServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/TagsServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/repository/LikesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/repository/TabsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/service/repository/TagsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/explore/entity/Topics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/entity/FeedBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/service/FeedBackRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/service/FeedBackService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/controllor/FileUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/FileUploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/ImageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/image/entity/ImageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/entity/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/MemberControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/MemberData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/service/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/controllor/QuestControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/QuestControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Quest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/QuestContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestContentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/StartUpControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/sql/sql" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/sql/sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/CategoryFirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/CategoryFirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/IdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/InvitationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/InvitationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/TestMongoDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/controller/UserControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/controller/UserControllor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/entity/Invitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/entity/Invitation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/entity/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/entity/TestUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/mysql_mybatis_dao/CategortyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/mysql_mybatis_dao/InvitationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/mysql_mybatis_dao/InvitationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/service/CategoryFirstService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/service/CategoryFirstService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/test/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/test/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/IdWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/ServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/ServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/controllor/BannerControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/controllor/BannerControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/entity/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/entity/Banner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/controllor/AboutControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/entity/About.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/service/AboutRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/service/AboutService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/controllor/ArticleControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/ArticleContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/entity/ArticleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/service/ArticleContentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/service/ArticleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/service/ArticleServerImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/controllor/BannerControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/entity/Banner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/service/BannerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/service/BannerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/boot/controllor/BootImgControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/boot/entity/BootUpImg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/boot/service/BootUpImgImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/boot/service/BootUpImgRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/controllor/CommentControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/entity/ReplyComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/service/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/service/ReplyCommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/service/ReplyCommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/controllor/LikesControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/controllor/TabsControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/controllor/TagsControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/entity/Likes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/entity/Tabs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/entity/Tags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/LikesServerImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/TabsServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/TagsServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/repository/LikesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/repository/TabsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/service/repository/TagsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/explore/entity/Topics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/controllor/FeedBackControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/entity/FeedBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/service/FeedBackRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/service/FeedBackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/image/controllor/FileUploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/image/entity/ImageData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/image/entity/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/controllor/MemberControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/entity/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/entity/MemberData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/service/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/controllor/QuestControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/entity/Quest$QuestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/entity/Quest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/entity/QuestContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/service/QuestContentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/service/QuestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/service/QuestServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/start_up/controllor/StartUpControllor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/start_up/entity/StartUpChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/start_up/service/StartUpChartRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/start_up/service/StartUpChartServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/test/entity/Invitation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/test/entity/TestUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/BaseResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/UploadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/UploadUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +330,7 @@
     <ignored path="$PROJECT_DIR$/server/target/" />
     <ignored path="$PROJECT_DIR$/admin/target/" />
     <ignored path="$PROJECT_DIR$/admin-servier/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,61 +373,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/AboutControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="77" selection-start-line="77" selection-end-line="81" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/BannerControllor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,38 +412,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/BaseResponseDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/IdWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -192,7 +482,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>G:/logs</find>
       <find>ribbon</find>
       <find>eure</find>
       <find>eu</find>
@@ -212,7 +501,6 @@
       <find>replyUserId</find>
       <find>statu</find>
       <find>评论</find>
-      <find>findByArticleId</find>
       <find>@Cache</find>
       <find>key</find>
       <find>s3</find>
@@ -220,6 +508,10 @@
       <find>Key</find>
       <find>required = true,</find>
       <find>swa</find>
+      <find>insertArticle</find>
+      <find>saveContent</find>
+      <find>findByArticleId</find>
+      <find>swagger</find>
     </findStrings>
     <replaceStrings>
       <replace>invitation</replace>
@@ -240,57 +532,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/note.txt" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/comment/controllor/CommentControllor.java" />
-        <option value="$PROJECT_DIR$/eureka_service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/test/mysql_mybatis_dao/CategortyDao.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/service/CategortyDao.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/CategortyDao.java" />
-        <option value="$PROJECT_DIR$/admin/pom.xml" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Member.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseGetData.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestContentRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/Quest.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestServiceImp.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/controllor/QuestControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/entity/QuestContent.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/entity/Banner.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/entity/Banner.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java" />
-        <option value="$PROJECT_DIR$/server/pom.xml" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/controllor/AboutControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/community/controllor/LikesControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/article/entity/Article.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/article/entity/ArticleData.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/article/service/ArticleRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/article/service/ArticleServerImp.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/banner/entity/Banner.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/service/BannerRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/banner/service/BannerRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/banner/service/BannerService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/boot/service/BootUpImgImp.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/member/entity/Member.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/member/entity/MemberData.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/member/service/MemberRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/member/service/UserServiceImp.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/qa/service/QuestContentRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/qa/service/QuestRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/qa/service/QuestServiceImp.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/start_up/service/StartUpChartRepository.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/start_up/service/StartUpChartServiceImp.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/controllor/QuestControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/controllor/FileUploader.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/TabsControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/TagsControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/controllor/LikesControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/controllor/BootImgControllor.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/controllor/AboutControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/BannerControllor.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
       </list>
     </option>
   </component>
@@ -306,11 +598,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="adminServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="adminServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="article" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="article" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
@@ -327,10 +623,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="89" />
-    <option name="width" value="1717" />
-    <option name="height" value="924" />
+    <option name="x" value="747" />
+    <option name="y" value="24" />
+    <option name="width" value="692" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -338,7 +634,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -400,68 +695,25 @@
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-              <item name="controllor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -469,31 +721,66 @@
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="article" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -504,78 +791,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-              <item name="controllor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="start_up" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="start_up" type="462c0819:PsiDirectoryNode" />
-              <item name="controllor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="start_up" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="start_up" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
@@ -589,6 +804,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,7 +821,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564909684366" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -629,17 +845,17 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.article.service.config" />
+      <recent name="springclould.common.mvc.member.entity" />
       <recent name="com.article.service.mvc.qa.service" />
       <recent name="com.article.service.mvc.qa.entity" />
       <recent name="com.tcl.community.service.mvc.comment.service" />
-      <recent name="com.tcl.community.service.mvc.article.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/resources" />
+      <recent name="$PROJECT_DIR$/common/src/main/java/springclould/common/mvc" />
+      <recent name="$PROJECT_DIR$/common/src/main/java/springclould/common" />
+      <recent name="$PROJECT_DIR$/server/target/classes/static" />
       <recent name="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc" />
-      <recent name="$PROJECT_DIR$/admin/src/main/java/com/tcl/community/admin/mvc" />
-      <recent name="$PROJECT_DIR$/server/src/main/java/com/tcl/community/service/mvc" />
-      <recent name="$PROJECT_DIR$/admin/src/main/resources/static/img/image/jpeg" />
-      <recent name="$PROJECT_DIR$/admin/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -654,7 +870,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceApplication (1)">
+  <component name="RunManager" selected="Spring Boot.AdminApplication (1)">
     <configuration name="AdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.article.admin.AdminApplication" />
@@ -672,6 +888,14 @@
     <configuration name="ApiGetewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-geteway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springclould.apigeteway.ApiGetewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.CommonApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -696,6 +920,7 @@
       <item itemvalue="Spring Boot.AdminServerApplication" />
       <item itemvalue="Spring Boot.AdminApplication (1)" />
       <item itemvalue="Spring Boot.ServiceApplication (1)" />
+      <item itemvalue="Spring Boot.CommonApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -779,14 +1004,18 @@
       <workItem from="1564821242921" duration="827000" />
       <workItem from="1564902801283" duration="44000" />
       <workItem from="1564904015267" duration="5207000" />
+      <workItem from="1565004893360" duration="339000" />
+      <workItem from="1565005252520" duration="4228000" />
+      <workItem from="1565064400253" duration="14489000" />
+      <workItem from="1565082667117" duration="1510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417361000" />
+    <option name="totallyTimeSpent" value="437927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="54" y="-11" width="1387" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -795,23 +1024,23 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.3113612" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.28614232" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32760474" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.4038668" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2183187" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32833958" />
-      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32833958" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.7175081" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32747805" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32747805" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.663739" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.43161857" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.5370138" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.24167562" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.45796737" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Debug" order="14" weight="0.3877039" />
+      <window_info anchor="bottom" id="Debug" order="14" weight="0.53074026" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.30064517" />
       <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32903227" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -820,7 +1049,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" weight="0.32981133" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.19625469" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3505618" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -869,391 +1098,89 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestRepository.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/qa/controllor/QuestControllor.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/springclould/common/mvc/start_up/controllor/StartUpControllor.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/qa/service/QuestContentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/service/QuestServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/qa/service/QuestRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/boot/controllor/BootImgControllor.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/qa/service/QuestServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleServerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/service/ArticleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="276">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleContentRepository.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/entity/StartUpChart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleRepository.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/service/StartUpChartRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/service/ArticleServerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/T.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/MemberData.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/controllor/MemberControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="46" />
+        <state relative-caret-position="90">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartRepository.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/service/StartUpChartServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/service/StartUpChartServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/ReplyComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/entity/Comment.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/service/MemberRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/controllor/ArticleControllor.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleServerImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="256">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberService.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/community/service/LikesServerImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/service/MemberRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/entity/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/controllor/CommentControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="135" column="71" selection-start-line="135" selection-start-column="71" selection-end-line="135" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/controllor/FeedBackControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-geteway/src/main/java/springclould/apigeteway/config/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/entity/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="81" column="54" lean-forward="true" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/controllor/AboutControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/article/controllor/ArticleControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/webapp/images/code.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/webapp/images/fly.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar:///Java/jdk1.8.0_201/src.zip!/java/io/UnixFileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Java/jdk1.8.0_201/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Java/jdk1.8.0_201/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="214" column="55" selection-start-line="214" selection-start-column="55" selection-end-line="214" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/entity/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/entity/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/img/image/jpeg/te.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/utils/UploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/controllor/StartUpControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/entity/StartUpChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="77" selection-start-line="77" selection-end-line="81" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/controllor/BannerControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
+        <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1261,16 +1188,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/controllor/BannerControllor.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/qa/entity/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/qa/entity/QuestContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/IdWorker.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/UploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/utils/BaseResponseDto.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/StartUpControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/qa/QuestControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/MemberControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/FileUploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/feedback/FeedBackControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/TabsControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/TagsControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/community/LikesControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/CommentControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="107" column="26" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/boot/BootImgControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/AboutControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="72" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/CommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/BaseResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/about/AboutControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/feedback/controllor/FeedBackControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/mvc/banner/BannerControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1544,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>api-geteway</last-edited>
+          <last-edited>common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

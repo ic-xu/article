@@ -1,9 +1,5 @@
 package com.article.admin.mvc.feedback.controllor;
 
-import com.article.admin.utils.BaseResponseDto;
-import com.article.admin.utils.IdWorker;
-import com.article.admin.mvc.feedback.entity.FeedBack;
-import com.article.admin.mvc.feedback.service.FeedBackService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -11,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
+import com.common.mvc.feedback.entity.FeedBack;
+import com.common.mvc.feedback.service.FeedBackService;
+import com.common.utils.BaseResponseDto;
+import com.common.utils.IdWorker;
 
 import java.util.ArrayList;
 import java.util.List;

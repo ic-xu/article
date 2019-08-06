@@ -3,6 +3,7 @@ package com.article.service.utils;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;
+import com.common.utils.IdWorker;
 
 import java.io.File;
 import java.io.IOException;

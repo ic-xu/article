@@ -1,14 +1,14 @@
 package com.article.admin.mvc.image.controllor;
 
 
-import com.article.admin.mvc.image.entity.Images;
-import com.article.admin.utils.BaseResponseDto;
 import com.article.admin.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import com.common.mvc.image.entity.Images;
+import com.common.utils.BaseResponseDto;
 import springfox.documentation.annotations.ApiIgnore;
 import sun.misc.BASE64Decoder;
 
