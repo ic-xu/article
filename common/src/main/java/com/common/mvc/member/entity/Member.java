@@ -3,9 +3,7 @@ package com.common.mvc.member.entity;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -26,22 +24,22 @@ public class Member {
     @ApiModelProperty("用户喜欢作品数")
     private String likes;
 
-    @ApiModelProperty("用户头像")
+    @ApiModelProperty("手机号码")
     private String phone;
 
-    @ApiModelProperty("用户头像")
+    @ApiModelProperty("职业")
     private String job;
 
-    @ApiModelProperty("用户头像")
+    @ApiModelProperty("mima")
     private String password;
 
     @ApiModelProperty("用户头像")
     private String img;
 
-    @ApiModelProperty("用户头像")
+    @ApiModelProperty("简介")
     private String desc;
 
-    @ApiModelProperty("用户头像")
+    @ApiModelProperty(value = "创建时间",hidden = true)
     private long createTime;
 
 }

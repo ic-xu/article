@@ -17,7 +17,7 @@ import java.util.List;
 
 @RestController
 @Api(tags = "用户相关")
-@RequestMapping("member")
+@RequestMapping("/member")
 public class MemberControllor {
 
 
@@ -65,9 +65,9 @@ public class MemberControllor {
      *
  @return BaseResponseDto  * @return BaseResponseDto
      */
-    @ApiOperation("findAllByJop")
-    @GetMapping("/findAllByJop")
-    public BaseResponseDto findAllByJop(@RequestParam(defaultValue = "0") int pageNumber) {
+    @ApiOperation("获取职业分类列表")
+    @GetMapping("/{pageNumber}/json")
+    public BaseResponseDto findAllByJop(@PathVariable(value = "pageNumber")int pageNumber) {
         String jop = "111";
         PageRequest pageRequest = PageRequest.of(pageNumber, 20,
                 Sort.by(new Sort.Order(Sort.Direction.DESC, "createTime")));
