@@ -1,7 +1,7 @@
 package com.article.admin.controllor.image;
 
 
-import com.article.admin.utils.UploadUtils;
+import com.common.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;

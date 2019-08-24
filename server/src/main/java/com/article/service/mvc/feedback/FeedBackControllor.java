@@ -19,7 +19,6 @@ public class FeedBackControllor {
     FeedBackService feedBackService;
 
 
-
     /**
      * 客户端页面获取反馈的信息
      *
@@ -35,7 +34,7 @@ public class FeedBackControllor {
         feedBack.setToUserId("admin");
         feedBack.setFromUserId(userId);
         feedBack.setContent(context);
-        feedBack.setId(new IdWorker().nextId() + "" + System.currentTimeMillis());
+        feedBack.setId(IdWorker.getInstance().nextId() + "");
         return BaseResponseDto.success(feedBackService.save(feedBack));
     }
 

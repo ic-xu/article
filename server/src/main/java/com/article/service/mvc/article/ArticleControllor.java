@@ -73,7 +73,7 @@ public class ArticleControllor {
                                        @RequestParam(defaultValue = "") String content) {
 
         Article article = new Article();
-        article.setId("A" + new IdWorker().nextId());
+        article.setId("A" + IdWorker.getInstance().nextId());
         article.setArticleTitle(articleTitle);
         article.setDesc(articleDescribe);
         article.setHappenTime(System.currentTimeMillis());

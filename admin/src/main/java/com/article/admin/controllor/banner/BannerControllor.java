@@ -2,7 +2,7 @@ package com.article.admin.controllor.banner;
 
 
 import com.article.admin.config.ServerConfig;
-import com.article.admin.utils.UploadUtils;
+import com.common.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -73,7 +73,7 @@ public class BannerControllor {
             return BaseResponseDto.error(400, "只接受图片类型的文件");
         String name = UploadUtils.fileUpload01(file);
 
-        banner.setId(new IdWorker().nextId());
+        banner.setId(IdWorker.getInstance().nextId());
         banner.setImagePath(name);
         Banner insert = bannerService.insert(banner);
         if (null != insert)

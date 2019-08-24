@@ -56,7 +56,7 @@ public class CommentControllor {
         Member member = new Member();
         member.setUserId(userId);
         comment.setMember(member);
-        comment.setCommentId("C" + new IdWorker().nextId() + System.currentTimeMillis());
+        comment.setCommentId("C" + IdWorker.getInstance().nextId());
         commentService.save(comment);
         return BaseResponseDto.success();
     }
@@ -87,7 +87,7 @@ public class CommentControllor {
         Member member = new Member();
         member.setUserId(userId);
         replyComment.setMember(member);
-        replyComment.setCommentId("C" + new IdWorker().nextId() + System.currentTimeMillis());
+        replyComment.setCommentId("C" + IdWorker.getInstance());
         replyComment.setToMemberId(toUserId);
         replyCommentService.save(replyComment);
         return BaseResponseDto.success();

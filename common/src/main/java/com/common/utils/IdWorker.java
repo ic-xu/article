@@ -3,10 +3,18 @@ package com.common.utils;
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * @Author chenxu
+ * @Description 唯一Id生成器
+ * @Date 19-6-19 - 下午1:58
+ */
 public class IdWorker {
     // 时间起始标记点，作为基准，一般取系统的最近时间（一旦确定不能变动）
-    private final static long twepoch = 1239876547531569L;
+    private final static long twepoch = 1546272000000L;//起始时间定为2019/1/1 0:0:0
     // 机器标识位数
     private final static long workerIdBits = 5L;
     // 数据中心标识位数
@@ -16,7 +24,7 @@ public class IdWorker {
     // 数据中心ID最大值
     private final static long maxDatacenterId = -1L ^ (-1L << datacenterIdBits);
     // 毫秒内自增位
-    private final static long sequenceBits = 12L;
+    private final static long sequenceBits = 1L;
     // 机器ID偏左移12位
     private final static long workerIdShift = sequenceBits;
     // 数据中心ID左移17位
@@ -37,26 +45,24 @@ public class IdWorker {
     private final long datacenterId;
 
 
-    public IdWorker(){
+    private IdWorker() {
         this.datacenterId = getDatacenterId(maxDatacenterId);
         this.workerId = getMaxWorkerId(datacenterId, maxWorkerId);
     }
-    /**
-     * @param workerId
-     *            工作机器ID
-     * @param datacenterId
-     *            序列号
-     */
-//    public IdWorker(long workerId, long datacenterId) {
-//        if (workerId > maxWorkerId || workerId < 0) {
-//            throw new IllegalArgumentException(String.format("worker Id can't be greater than %d or less than 0", maxWorkerId));
-//        }
-//        if (datacenterId > maxDatacenterId || datacenterId < 0) {
-//            throw new IllegalArgumentException(String.format("datacenter Id can't be greater than %d or less than 0", maxDatacenterId));
-//        }
-//        this.workerId = workerId;
-//        this.datacenterId = datacenterId;
-//    }
+
+    private static IdWorker idWorker;
+
+    public static IdWorker getInstance() {
+        if (null == idWorker) {
+            synchronized (IdWorker.class) {
+                if (null == idWorker) {
+                    idWorker = new IdWorker();
+                }
+            }
+        }
+        return idWorker;
+    }
+
     /**
      * 获取下一个ID
      *
@@ -86,6 +92,7 @@ public class IdWorker {
                 | (workerId << workerIdShift) | sequence;
 
 
+//        return getRandomString(5) + nextId;
         return nextId;
     }
 
@@ -151,17 +158,57 @@ public class IdWorker {
     }
 
 
-    public static void main(String[] args) {
-        try {
-            IdWorker ik = new IdWorker();
-            System.out.println("========start========");
-            for(int i=0;i<200;i++){
-                System.out.println(ik.nextId());
+    /**
+     * 获取指定长度随机字符串
+     *
+     * @param length
+     * @return
+     */
+    public static String getRandomString(int length) {
+        ThreadLocalRandom random = ThreadLocalRandom.current();
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < length; i++) {
+            int number = random.nextInt(3);
+            long result = 0;
+            switch (number) {
+                case 0:
+                    result = Math.round(Math.random() * 25 + 65);
+                    sb.append(String.valueOf((char) result));
+                    break;
+                case 1:
+                    result = Math.round(Math.random() * 25 + 97);
+                    sb.append(String.valueOf((char) result));
+                    break;
+                case 2:
+                    sb.append(String.valueOf(random.nextInt(10)));
+                    break;
             }
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+        return sb.toString();
+    }
+
+
+    public static void main(String[] args) {
+
+//        int number = 10;
+//        Set<String> set = new HashSet<>();
+//        long start = System.currentTimeMillis();
+//        try {
+//            System.out.println("========start========");
+//            for (int i = 0; i < number; i++) {
+//                IdWorker ik = IdWorker.getInstance();
+//
+//                String id = ik.nextId();
+//                System.err.println(id);
+//                set.add(id);
+//            }
+//
+//            long end = System.currentTimeMillis();
+//            System.out.println(end - start + "----" + number * 1.0 / (end - start));
+//            System.err.println(set.size() == number);
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 }

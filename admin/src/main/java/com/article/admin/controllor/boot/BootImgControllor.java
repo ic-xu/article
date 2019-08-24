@@ -1,7 +1,7 @@
 package com.article.admin.controllor.boot;
 
 
-import com.article.admin.utils.UploadUtils;
+import com.common.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,7 +31,6 @@ public class BootImgControllor {
 
     @ApiImplicitParams({
             @ApiImplicitParam(name = "status", value = "是否展示,0不展示，1展示,默认0", defaultValue = "0", required = true, paramType = "int"),
-            @ApiImplicitParam(name = "file", value = "上传文件", required = true)
     })
     @Transactional
     public BaseResponseDto insert(@RequestParam(value = "status", defaultValue = "0") int status, @RequestParam(value = "file", required = false) MultipartFile file) throws IOException {

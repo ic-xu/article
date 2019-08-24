@@ -7,8 +7,8 @@
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java
 /local/sda/project/article/server/src/main/java/com/article/service/config/WebMvcConfig.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/boot/BootImgControllor.java
+/local/sda/project/article/server/src/main/java/com/article/service/mvc/upload/Upload.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/comment/CommentControllor.java
-/local/sda/project/article/server/src/main/java/com/article/service/utils/UploadUtils.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/image/FileUploader.java
 /local/sda/project/article/server/src/main/java/com/article/service/utils/BaseGetData.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/feedback/FeedBackControllor.java

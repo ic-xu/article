@@ -22,7 +22,7 @@ public class MemberService {
 
 
     public Member save(Member user) {
-        user.setUserId(String.valueOf(new IdWorker().nextId()));
+        user.setUserId(String.valueOf(IdWorker.getInstance().nextId()));
         return memberRepository.save(user);
     }
 

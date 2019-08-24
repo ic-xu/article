@@ -7,7 +7,6 @@ import org.springframework.data.annotation.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @ToString
 public class Member {
 
@@ -30,7 +29,7 @@ public class Member {
     @ApiModelProperty("职业")
     private String job;
 
-    @ApiModelProperty("mima")
+    @ApiModelProperty("密码")
     private String password;
 
     @ApiModelProperty("用户头像")

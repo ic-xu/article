@@ -50,7 +50,6 @@ public class FeedBackControllor {
 
     /**
      * 客户端页面获取反馈的信息
-     *
      */
     @GetMapping("/getFeedBackAll")
     @ApiOperation("后台获取所有反馈列表")
@@ -63,7 +62,7 @@ public class FeedBackControllor {
             pageNumber = 0;
         if (pageSize < 0)
             pageSize = 20;
-        PageRequest pageRequest = PageRequest.of(pageNumber,pageSize,Sort.by(Sort.Order.desc("createTime")));
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, Sort.by(Sort.Order.desc("createTime")));
 
         return BaseResponseDto.success(feedBackService.findAll(status, pageRequest));
     }
@@ -71,7 +70,6 @@ public class FeedBackControllor {
 
     /**
      * 客户端页面获取反馈的信息
-     *
      */
     @PostMapping("/getAllByUserId")
     @ApiOperation("获取单个用户的反馈记录")
@@ -94,7 +92,6 @@ public class FeedBackControllor {
 
     /**
      * 客户端页面获取反馈的信息
-     *
      */
     @PostMapping("/insertFeedBack")
     @ApiOperation("回复反馈信息")
@@ -105,8 +102,8 @@ public class FeedBackControllor {
         Optional<FeedBack> feedB = feedBackService.findById(id);
         FeedBack feedBack1;
         FeedBack feedBack = new FeedBack();
-        if(feedB.isPresent()){
-             feedBack1 = feedB.get();
+        if (feedB.isPresent()) {
+            feedBack1 = feedB.get();
             feedBack1.setStatus(1);
             feedBackService.save(feedBack1);
             feedBack.setCreateTime(System.currentTimeMillis());
@@ -114,7 +111,7 @@ public class FeedBackControllor {
             feedBack.setFromUserId("admin");
             feedBack.setContent(context);
             feedBack.setStatus(1);
-            feedBack.setId(new IdWorker().nextId() + "" + System.currentTimeMillis());
+            feedBack.setId(IdWorker.getInstance().nextId() + "");
         }
         return BaseResponseDto.success(feedBackService.save(feedBack));
     }

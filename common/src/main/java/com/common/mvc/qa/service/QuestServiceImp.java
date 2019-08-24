@@ -32,7 +32,7 @@ public class QuestServiceImp {
      * @serialData 19-7-20 - 下午2:03
      */
     public Quest save(Quest quest, String content) {
-        String id = String.valueOf(new IdWorker().nextId());
+        String id = String.valueOf(IdWorker.getInstance().nextId());
         quest.setQuestId(id);
         questContentRepository.save(new QuestContent(id, content));
         return questRepository.save(quest);

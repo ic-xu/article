@@ -1,7 +1,7 @@
 package com.article.service.mvc.image;
 
 
-import com.article.service.utils.UploadUtils;
+import com.common.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;

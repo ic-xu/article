@@ -86,7 +86,7 @@ public class ArticleServerImp {
      *
      */
     public boolean insertArticle(Article article) {
-        article.setId(new IdWorker().nextId() + "" + System.currentTimeMillis());
+        article.setId(IdWorker.getInstance().nextId()+"");
         article.setHappenTime(System.currentTimeMillis());
         articleRepository.save(article);
         return true;

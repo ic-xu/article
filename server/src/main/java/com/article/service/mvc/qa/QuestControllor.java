@@ -41,7 +41,7 @@ public class QuestControllor {
         quest.setConllection(false);
         quest.setHappenTIme(System.currentTimeMillis());
         quest.setHot(false);
-        quest.setQuestId(new IdWorker().nextId() + "");
+        quest.setQuestId(IdWorker.getInstance().nextId() + "");
         Quest save = questServiceImp.save(quest, content);
         return BaseResponseDto.success(save);
     }
