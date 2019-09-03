@@ -52,5 +52,13 @@ eureka:
     service-url:
       defaultZone: http://localhost:10000/eureka/
 
+app:
+  zk:
+    switch: true                              # 是否注册 zk
+    addr: 127.0.0.1:2181                    # zk 地址
+    connect:
+      timeout: 15000                          # zk 连接超时时限
+    root: /route
+
 
 
