@@ -1,6 +1,7 @@
 package com.article.service.mvc.upload;
 
 import com.common.utils.BaseResponseDto;
+import com.common.utils.UploadUtils;
 import com.mongodb.client.gridfs.model.GridFSFile;
 import com.qcloud.cos.utils.IOUtils;
 import io.swagger.annotations.Api;
@@ -47,23 +48,19 @@ public class Upload {
 
         if (files.length <= 0)
             return BaseResponseDto.error(202, "上传文件列表为null");
-        List<Object> imageUrls = new ArrayList<>();
+        List<String> imageUrls = new ArrayList<>();
         for (MultipartFile file : files) {
             String s = null;
             try {
-                String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
-
-
-                InputStream inputStream = file.getInputStream();
-
-                String md5 = DigestUtils.md5Hex(inputStream); // 之后无法保存文件
-                String fileName = md5 + end;
-                uploadToMongoDBFs(file.getInputStream(), fileName, file.getContentType());
-
-                System.err.println("文件名字为：" + fileName);
-                imageUrls.add("file/getImage?imagefile=" + fileName);
-
-//                s = UploadUtils.fileUpload01(file);
+//                InputStream inputStream = file.getInputStream();
+//                String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
+//                String md5 = DigestUtils.md5Hex(inputStream); // 之后无法保存文件
+//                String fileName = md5 + end;
+//                uploadToMongoDBFs(file.getInputStream(), fileName, file.getContentType());
+//                System.err.println("文件名字为：" + fileName);
+//                imageUrls.add("file/getImage?imagefile=" + fileName);
+                s = UploadUtils.fileUpload01("image/muiti",file);
+                imageUrls.add(s+" ");
             } catch (IOException e) {
                 e.printStackTrace();
             }

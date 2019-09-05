@@ -1,7 +1,6 @@
 package com.article.service.mvc.banner;
 
 
-import com.article.service.config.ServerConfig;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -14,7 +13,6 @@ import com.common.mvc.banner.entity.Banner;
 import com.common.mvc.banner.service.BannerService;
 import com.common.utils.BaseResponseDto;
 
-import java.io.File;
 import java.util.List;
 
 @Api(tags = "轮播图相关")
@@ -24,11 +22,6 @@ public class BannerControllor {
 
     private BannerService bannerService;
 
-    private ServerConfig serverConfig;
-    @Autowired
-    public void setServerConfig(ServerConfig serverConfig) {
-        this.serverConfig = serverConfig;
-    }
     @Autowired
     public void setBannerService(BannerService bannerService) {
         this.bannerService = bannerService;
@@ -47,9 +40,9 @@ public class BannerControllor {
     })
     public BaseResponseDto getBannerList() {
         List<Banner> all = bannerService.findAll(1);
-        for (Banner banner : all) {
-            banner.setImagePath(serverConfig.getUrl() + File.separator + banner.getImagePath());
-        }
+//        for (Banner banner : all) {
+//            banner.setImagePath(serverConfig.getUrl() + File.separator + banner.getImagePath());
+//        }
         return BaseResponseDto.success(all);
     }
 }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
         <module name="eureka_service" />
+        <module name="cx" />
         <module name="admin-servier" />
         <module name="api-geteway" />
         <module name="server" />
@@ -21,6 +22,7 @@
       <module name="apollo-test" target="1.8" />
       <module name="article" target="1.8" />
       <module name="common" target="1.8" />
+      <module name="cx" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eruka_client_service" target="1.8" />
       <module name="eruke_service" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="apollo-test" options="-parameters" />
       <module name="article" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="cx" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eruka_client_service" options="-parameters" />
       <module name="eruke_service" options="-parameters" />

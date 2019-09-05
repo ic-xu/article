@@ -1,6 +1,9 @@
 package com.article.service.mvc.article;
 
 
+import com.common.config.ServerConfig;
+import com.common.utils.HtmlUtils;
+import com.common.utils.TimeUtils;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -11,10 +14,12 @@ import com.common.mvc.article.entity.ArticleData;
 import com.common.mvc.article.service.ArticleServerImp;
 import com.common.mvc.comment.service.CommentService;
 import com.common.mvc.comment.service.ReplyCommentService;
-import com.common.mvc.member.entity.Member;
 import com.common.mvc.member.service.MemberService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @Api(tags = "文章相关接口")
@@ -28,6 +33,13 @@ public class ArticleControllor {
     private CommentService commentService;
 
     private ReplyCommentService replyCommentService;
+
+    private ServerConfig serverConfig;
+
+    @Autowired
+    public void setServerConfig(ServerConfig serverConfig) {
+        this.serverConfig = serverConfig;
+    }
 
     @Autowired
     public void setArticleServerImp(ArticleServerImp articleServerImp) {
@@ -50,13 +62,7 @@ public class ArticleControllor {
     }
 
     /**
-     * @param articleTitle    文章标题
-     * @param articleDescribe 描述
-     * @param userId          用户id
-     * @param keyWord         关键字
-     * @param tags            标签
-     * @param image           图像
-     * @param content         内容
+     * article
      * @return 返回值
      */
     @ApiOperation("发表文章接口")
@@ -65,33 +71,22 @@ public class ArticleControllor {
             @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
     })
     @PostMapping("/saveArticle")
-    public BaseResponseDto saveArticle(@RequestParam(defaultValue = "") String articleTitle,
-                                       @RequestParam(defaultValue = "") String articleDescribe,
-                                       @RequestParam(defaultValue = "") String userId,
-                                       @RequestParam(required = false, defaultValue = "") String keyWord, String tags,
-                                       @RequestParam(required = false, defaultValue = "") String image,
-                                       @RequestParam(defaultValue = "") String content) {
+    public BaseResponseDto saveArticle(@RequestBody Article article) {
 
-        Article article = new Article();
         article.setId("A" + IdWorker.getInstance().nextId());
-        article.setArticleTitle(articleTitle);
-        article.setDesc(articleDescribe);
         article.setHappenTime(System.currentTimeMillis());
-        Member member = new Member();
-        member.setUserId(userId);
-        article.setAuther(member);
-        article.setKeyWord(keyWord);
-        article.setTags(tags);
         article.setLike(false);
         article.setStatus(0);
-        article.setNewsImg(image);
         System.out.println(article);
         article.setStatus(1);
         if (articleServerImp.insertArticle(article)) {
             ArticleContent articleContent = new ArticleContent();
             articleContent.setArticleId(article.getId());
-            articleContent.setContent(content);
+            String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
+            articleContent.setContent(contentHtml);
             articleServerImp.saveContent(articleContent);
+            article.setContent(null);
+            articleServerImp.save(article);
             return BaseResponseDto.success(true);
         }
         return BaseResponseDto.success(false);
@@ -117,6 +112,10 @@ public class ArticleControllor {
         Page<Article> articleForPage = articleServerImp.getArticleForPage(page, pageSize, classify, 1);
 
         System.out.println("服务器返回数据============>>>>>>>>>>> " + articleForPage);
+        for (int i = 0; i < articleForPage.getContent().size(); i++) {
+            articleForPage.getContent().get(i).setContent(serverConfig.getUrl()+"/article/"+ articleForPage.getContent().get(i).getId()+"/html");
+            articleForPage.getContent().get(i).setId(null);
+        }
         ArticleData articleData = new ArticleData();
         articleData.setCurPage(page);
         articleData.setDatas(articleForPage.getContent());
@@ -157,6 +156,14 @@ public class ArticleControllor {
                 return BaseResponseDto.error(400, "该用户没有权限删除该文章");
         }
         return BaseResponseDto.error(400, "没有相关文章");
+    }
+
+
+    @ApiOperation("获取文章内容的地址")
+    @GetMapping("/{id}/html")
+    public String getArticleContentById(@PathVariable(name = "id") String id) {
+        ArticleContent byArticleId = articleServerImp.findContentByArticleId(id);
+        return byArticleId.getContent();
     }
 
 

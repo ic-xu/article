@@ -6,6 +6,7 @@ import com.qcloud.cos.auth.BasicCOSCredentials;
 import com.qcloud.cos.auth.COSCredentials;
 import com.qcloud.cos.exception.CosClientException;
 import com.qcloud.cos.exception.CosServiceException;
+import com.qcloud.cos.model.ObjectMetadata;
 import com.qcloud.cos.model.PutObjectRequest;
 import com.qcloud.cos.model.PutObjectResult;
 import com.qcloud.cos.region.Region;
@@ -18,10 +19,10 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 
 @Slf4j
 public class UploadUtils {
+
 
     private static UploadUtils uploadUtils;
 
@@ -36,12 +37,12 @@ public class UploadUtils {
     }
 
 
-    private GridFsTemplate gridFsTemplate;
-
-    @Autowired
-    public void setGridFsTemplate(GridFsTemplate gridFsTemplate) {
-        this.gridFsTemplate = gridFsTemplate;
-    }
+//    private GridFsTemplate gridFsTemplate;
+//
+//    @Autowired
+//    public void setGridFsTemplate(GridFsTemplate gridFsTemplate) {
+//        this.gridFsTemplate = gridFsTemplate;
+//    }
 
     private static final String DOMAIN = "https://head-image-1252740506.cos.ap-guangzhou.myqcloud.com";
 
@@ -76,26 +77,27 @@ public class UploadUtils {
      * @return
      * @throws IOException
      */
-    public static String fileUpload01(MultipartFile file) throws IOException {
+    public static String fileUpload01(String pathName,MultipartFile file) throws IOException {
 
-        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."), file.getOriginalFilename().length());
+        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".")).toLowerCase();
         String id = IdWorker.getRandomString(1) + IdWorker.getInstance().nextId();
 //        String name = "img/" + "/" + id + end;
-//        Resource resource = new ClassPathResource("static/");
+//        Resource resource = new ClassPathResource("/");
 //        File filePath = resource.getFile();
 //        if (!filePath.exists()) {
-//            filePath.mkdirs();
+//            filePath.createNewFile();
 //        }
-        File tmpDir = new File(id + end);
-        if (!tmpDir.exists()) {
-            tmpDir.createNewFile();
-        }
-        file.transferTo(tmpDir);
-        String s = uploadToClould("image" + File.separator + id + end, tmpDir, file);
-        log.info("文件的原始路径为{}", file.getOriginalFilename());
-        tmpDir.delete();
+//        File tmpDir = new File(id + end);
+//        if (!tmpDir.exists()) {
+//            tmpDir.createNewFile();
+//        }
+//        file.transferTo(filePath);
+//        System.err.println(filePath.getAbsolutePath());
+//        log.info("文件的原始路径为{}", file.getOriginalFilename());
+//        tmpDir.delete();
 //        log.info("服务器返回的图片数据为{}", s);
-
+        String s = "";
+        s = uploadToClould(pathName+"/" + id + end.toLowerCase(), file);
         return s;
     }
 
@@ -103,7 +105,7 @@ public class UploadUtils {
      * @date  19-8-23 - 上午10:15
      * @apiNote  上传到腾讯云服务器
      */
-    private static String uploadToClould(String name, File localFile, MultipartFile file) {
+    private static String uploadToClould(String name, MultipartFile file) {
 
         try {
             // 指定要上传的文件
@@ -111,13 +113,20 @@ public class UploadUtils {
             String bucketName = "head-image-1252740506";
             // 指定要上传到 COS 上对象键
 //            String key = IdWorker.getInstance().getRandomString(1) + IdWorker.getInstance().nextId();
-            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, name, localFile);
-            PutObjectResult putObjectResult = UploadUtils.getInstance().getCosClient().putObject(putObjectRequest);
-            localFile.delete();
-            return DOMAIN + File.separator + name;
+//            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, name, localFile);
+//            PutObjectResult putObjectResult =
+//            UploadUtils.getInstance().getCosClient().putObject(bucketName, name, localFile);
+
+
+            // 创建上传Object的Metadata
+            ObjectMetadata meta = new ObjectMetadata();
+            // 必须设置ContentLength
+            meta.setContentLength(file.getSize());
+            PutObjectResult putObjectResult = UploadUtils.getInstance().getCosClient().putObject(bucketName, name, file.getInputStream() ,meta );
+            return DOMAIN + "/"+ name;
         } catch (CosServiceException serverException) {
             serverException.printStackTrace();
-        } catch (CosClientException clientException) {
+        } catch (CosClientException | IOException clientException) {
             clientException.printStackTrace();
         }
         return "";
