@@ -11,7 +11,7 @@
 
     <modules>
         <module>admin</module>
-        <module>admin-servier</module>
+        <module>admin-server</module>
         <module>api-geteway</module>
         <module>eureka_service</module>
         <module>server</module>

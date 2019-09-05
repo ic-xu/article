@@ -11,12 +11,14 @@
         <module name="cx" />
         <module name="admin-servier" />
         <module name="api-geteway" />
+        <module name="admin-server" />
         <module name="server" />
         <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin" target="1.8" />
+      <module name="admin-server" target="1.8" />
       <module name="admin-servier" target="1.8" />
       <module name="api-geteway" target="1.8" />
       <module name="apollo-test" target="1.8" />
@@ -35,6 +37,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="admin" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
       <module name="admin-servier" options="-parameters" />
       <module name="api-geteway" options="-parameters" />
       <module name="apollo-test" options="-parameters" />
