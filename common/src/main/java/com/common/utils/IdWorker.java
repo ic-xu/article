@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class IdWorker {
     // 时间起始标记点，作为基准，一般取系统的最近时间（一旦确定不能变动）
-    private final static long twepoch = 1546272000000L;//起始时间定为2019/1/1 0:0:0
+    private final static long twepoch = 1567651302000L;//起始时间定为2019/9/5 10:42:00
     // 机器标识位数
     private final static long workerIdBits = 5L;
     // 数据中心标识位数

@@ -1,5 +1,6 @@
 package com.article.service.mvc.member;
 
+import com.common.utils.IdWorker;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

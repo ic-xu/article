@@ -50,13 +50,6 @@ public class ArticleControllor {
     }
 
     /**
-     * @param articleTitle    文章标题
-     * @param articleDescribe 描述
-     * @param userId          用户id
-     * @param keyWord         关键字
-     * @param tags            标签
-     * @param image           图像
-     * @param content         内容
      * @return 返回值
      */
     @ApiOperation("发表文章接口")
@@ -65,33 +58,32 @@ public class ArticleControllor {
             @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
     })
     @PostMapping("/saveArticle")
-    public BaseResponseDto saveArticle(@RequestParam(defaultValue = "") String articleTitle,
-                                       @RequestParam(defaultValue = "") String articleDescribe,
-                                       @RequestParam(defaultValue = "") String userId,
-                                       @RequestParam(required = false, defaultValue = "") String keyWord, String tags,
-                                       @RequestParam(required = false, defaultValue = "") String image,
-                                       @RequestParam(defaultValue = "") String content) {
+    public BaseResponseDto saveArticle(@RequestBody Article article) {
 
-        Article article = new Article();
         article.setId("A" + IdWorker.getInstance().nextId());
-        article.setArticleTitle(articleTitle);
-        article.setDesc(articleDescribe);
+
         article.setHappenTime(System.currentTimeMillis());
-        Member member = new Member();
-        member.setUserId(userId);
-        article.setAuther(member);
-        article.setKeyWord(keyWord);
-        article.setTags(tags);
-        article.setLike(false);
-        article.setStatus(0);
-        article.setNewsImg(image);
+
+//        article.setArticleTitle(articleTitle);
+//        article.setDesc(articleDescribe);
+//        Member member = new Member();
+//        member.setUsername(userId);
+//        article.setAuther(member);
+//        article.setKeyWord(keyWord);
+//        article.setTags(tags);
+//        article.setLike(false);
+//        article.setStatus(0);
+//        article.setNewsImg(image);
+
+        String content = article.getContent().replaceAll("<img", "<img style = 'width:100%' ");
+        article.setContent(content);
         System.out.println(article);
         article.setStatus(1);
         if (articleServerImp.insertArticle(article)) {
-            ArticleContent articleContent = new ArticleContent();
-            articleContent.setArticleId(article.getId());
-            articleContent.setContent(content);
-            articleServerImp.saveContent(articleContent);
+//            ArticleContent articleContent = new ArticleContent();
+//            articleContent.setArticleId(article.getId());
+//            articleContent.setContent(article.getContent());
+//            articleServerImp.saveContent(articleContent);
             return BaseResponseDto.success(true);
         }
         return BaseResponseDto.success(false);
@@ -133,7 +125,7 @@ public class ArticleControllor {
     public BaseResponseDto getArticleById(String id) {
         Article oneArticle = articleServerImp.getOneArticle(id);
         if (null != oneArticle.getAuther()) {
-            oneArticle.setAuther(memberService.getMemberById(oneArticle.getAuther().getUserId()));
+            oneArticle.setAuther(memberService.getMemberById(oneArticle.getAuther().getUsername()));
         }
         ArticleContent byArticleId = articleServerImp.findContentByArticleId(id);
         oneArticle.setContent(byArticleId.getContent());
@@ -143,11 +135,11 @@ public class ArticleControllor {
 
     @ApiOperation("删除文章接口")
     @PostMapping("/deleteArticle")
-    public BaseResponseDto deleteArticle(String article, String userId) {
+    public BaseResponseDto deleteArticle(String article, String getUserName) {
 
         Article byArticleId = articleServerImp.findByArticleId(article);
         if (null != article && null != byArticleId.getAuther()) {
-            if (byArticleId.getAuther().getUserId().equals(userId)) {
+            if (byArticleId.getAuther().getUsername().equals(getUserName)) {
                 articleServerImp.delete(article);
                 //分别删除评论信息和回复信息
                 commentService.deleteAllByArticleId(article);

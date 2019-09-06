@@ -1,4 +1,4 @@
-package com.article.service.mvc.route;
+package com.article.service.mvc.route.bean;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;

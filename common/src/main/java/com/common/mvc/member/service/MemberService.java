@@ -22,13 +22,12 @@ public class MemberService {
 
 
     public Member save(Member user) {
-        user.setUserId(String.valueOf(IdWorker.getInstance().nextId()));
         return memberRepository.save(user);
     }
 
 
-    public Member getMemberById(String id) {
-        return memberRepository.findByUserId(id);
+    public Member getMemberById(String username) {
+        return memberRepository.findByUsername(username);
     }
 
     public List<Member> findAll() {

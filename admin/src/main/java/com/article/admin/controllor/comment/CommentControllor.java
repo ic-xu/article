@@ -53,7 +53,7 @@ public class CommentControllor {
         comment.setArticleId(articleId);
         comment.setCommentContent(content);
         Member member = new Member();
-        member.setUserId(userId);
+        member.setUsername(userId);
         comment.setMember(member);
         comment.setCommentId("C" + IdWorker.getInstance().nextId());
         commentService.save(comment);
@@ -84,7 +84,7 @@ public class CommentControllor {
         replyComment.setArticleId(articleId);
         replyComment.setCommentContent(content);
         Member member = new Member();
-        member.setUserId(userId);
+        member.setUsername(userId);
         replyComment.setMember(member);
         replyComment.setCommentId("C" + IdWorker.getInstance().nextId());
         replyComment.setToMemberId(toUserId);
@@ -108,8 +108,8 @@ public class CommentControllor {
 
         replyCommentService.deleteById(commentId);
         Comment byId = commentService.findById(commentId);
-        if (null != byId.getMember() && null != byId.getMember().getUserId())
-            replyCommentService.deleteAllByToMemberId(byId.getMember().getUserId());
+        if (null != byId.getMember() && null != byId.getMember().getUsername())
+            replyCommentService.deleteAllByToMemberId(byId.getMember().getUsername());
         commentService.deleteById(commentId);
         return BaseResponseDto.success();
     }
@@ -139,8 +139,8 @@ public class CommentControllor {
 
         allByArticleId.getContent().forEach(mb -> {
             all.add(mb);
-            String userId = mb.getMember().getUserId();
-            if (null != mb.getMember() && null != mb.getMember().getUserId()) {
+            String userId = mb.getMember().getUsername();
+            if (null != mb.getMember() && null != mb.getMember().getUsername()) {
                 Page<ReplyComment> allByArticleIdAndToMemberId = replyCommentService.findAllByArticleIdAndToMemberId(articleId,
                         userId, pageRequest);
                 all.addAll(allByArticleIdAndToMemberId.getContent());

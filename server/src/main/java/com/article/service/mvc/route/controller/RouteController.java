@@ -2,9 +2,7 @@ package com.article.service.mvc.route.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.article.service.cache.ServerCache;
-import com.article.service.mvc.route.ChatReqVO;
-import com.article.service.mvc.route.P2PReqVO;
-import com.article.service.mvc.route.ServiceInfo;
+import com.article.service.mvc.route.bean.*;
 import com.article.service.mvc.route.service.AccountService;
 import com.common.mvc.member.entity.Member;
 import com.common.mvc.member.service.MemberService;
@@ -12,16 +10,14 @@ import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.*;
+import java.util.Comparator;
+import java.util.List;
+import java.util.TreeMap;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("user/")
 public class RouteController {
 
     private ServerCache serverCache;
@@ -55,8 +51,8 @@ public class RouteController {
      * @ return
      */
     @ApiOperation("推送消息")
-    @RequestMapping(value = "pushRoute", method = RequestMethod.POST)
-    public BaseResponseDto pushRoute(@RequestBody P2PReqVO p2pRequest) throws Exception {
+    @PostMapping("pushRoute")
+    public BaseResponseDto pushRoute(@RequestBody P2PReqVO p2pRequest) {
 
 
         try {
@@ -87,16 +83,20 @@ public class RouteController {
      * @ return
      */
     @ApiOperation("登录并获取服务器")
-    @RequestMapping(value = "login", method = RequestMethod.POST)
-    public BaseResponseDto login(HttpServletRequest request, @RequestBody Member member) {
+    @PostMapping("login")
+    public BaseResponseDto login(Member member) throws Exception {
 
 
         TreeMap<Long, ServiceInfo> treeMap = new TreeMap<>(Comparator.naturalOrder());
+
         //登录校验
-         memberService.save(member);
+        Member user = memberService.save(member);
 
+        //如果登录成功
+
+        LoginResposeDate loginResposeDate = new LoginResposeDate();
+        loginResposeDate.setUser(user);
         System.err.println(serverCache.getAll().size());
-
         serverCache.getAll().forEach(serverString -> {
             ServiceInfo serviceInfo = JSON.parseObject(serverString, ServiceInfo.class);
             String url = "http://" + serviceInfo.getOutIp() + ":" + serviceInfo.getHttpPort() + "/getUserCount";
@@ -104,12 +104,15 @@ public class RouteController {
             treeMap.put(serviceOnlneCount, serviceInfo);
 
         });
-        if (treeMap.size() > 0) {
-            ServiceInfo value = treeMap.firstEntry().getValue();
-
-            return BaseResponseDto.success(value);
-        }
-        return BaseResponseDto.success("[]");
+        if (null == treeMap.firstEntry())
+            throw new Exception("IM服务器异常");
+        ServiceInfo value = treeMap.firstEntry().getValue();
+        ResposServiceInfo resposServiceInfo = new ResposServiceInfo();
+        resposServiceInfo.setHttpPort(value.getHttpPort());
+        resposServiceInfo.setServerPort(value.getNettyPort());
+        resposServiceInfo.setUrl(value.getOutIp());
+        loginResposeDate.setServiceInfo(resposServiceInfo);
+        return BaseResponseDto.success(loginResposeDate);
     }
 
 

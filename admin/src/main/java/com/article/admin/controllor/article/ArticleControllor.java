@@ -71,7 +71,7 @@ public class ArticleControllor {
         article.setDesc(articleDescribe);
         article.setHappenTime(System.currentTimeMillis());
         Member member = new Member();
-        member.setUserId(userId);
+        member.setUsername(userId);
         article.setAuther(member);
         article.setKeyWord(keyWord);
         article.setTags(tags);
@@ -115,7 +115,7 @@ public class ArticleControllor {
     public BaseResponseDto getArticleById(String id) {
         Article oneArticle = articleServerImp.getOneArticle(id);
         if (null != oneArticle.getArticleTitle()) {
-            oneArticle.setAuther(memberService.getMemberById(oneArticle.getAuther().getUserId()));
+            oneArticle.setAuther(memberService.getMemberById(oneArticle.getAuther().getUsername()));
         }
         ArticleContent byArticleId = articleServerImp.findContentByArticleId(id);
         oneArticle.setContent(byArticleId.getContent());
@@ -163,7 +163,7 @@ public class ArticleControllor {
 
         Article byArticleId = articleServerImp.findByArticleId(article);
         if (null != article && null != byArticleId.getAuther()) {
-            if (byArticleId.getAuther().getUserId().equals(userId)) {
+            if (byArticleId.getAuther().getUsername().equals(userId)) {
                 articleServerImp.delete(article);
                 //分别删除评论信息和回复信息
                 commentService.deleteAllByArticleId(article);

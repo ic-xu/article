@@ -46,10 +46,6 @@ public class BannerControllor {
             @ApiResponse(code = 0, message = "操作成功")
     })
     public BaseResponseDto getBannerList() {
-        List<Banner> all = bannerService.findAll(1);
-        for (Banner banner : all) {
-            banner.setImagePath(serverConfig.getUrl() + File.separator + banner.getImagePath());
-        }
-        return BaseResponseDto.success(all);
+        return BaseResponseDto.success(bannerService.findAll(1));
     }
 }

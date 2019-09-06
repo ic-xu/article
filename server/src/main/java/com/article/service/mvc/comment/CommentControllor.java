@@ -54,7 +54,6 @@ public class CommentControllor {
         comment.setArticleId(articleId);
         comment.setCommentContent(content);
         Member member = new Member();
-        member.setUserId(userId);
         comment.setMember(member);
         comment.setCommentId("C" + IdWorker.getInstance().nextId());
         commentService.save(comment);
@@ -85,7 +84,6 @@ public class CommentControllor {
         replyComment.setArticleId(articleId);
         replyComment.setCommentContent(content);
         Member member = new Member();
-        member.setUserId(userId);
         replyComment.setMember(member);
         replyComment.setCommentId("C" + IdWorker.getInstance());
         replyComment.setToMemberId(toUserId);
@@ -109,8 +107,8 @@ public class CommentControllor {
 
         replyCommentService.deleteById(commentId);
         Comment byId = commentService.findById(commentId);
-        if (null != byId.getMember() && null != byId.getMember().getUserId())
-            replyCommentService.deleteAllByToMemberId(byId.getMember().getUserId());
+        if (null != byId.getMember() && null != byId.getMember().getUsername())
+            replyCommentService.deleteAllByToMemberId(byId.getMember().getUsername());
         commentService.deleteById(commentId);
         return BaseResponseDto.success();
     }
@@ -139,8 +137,8 @@ public class CommentControllor {
         allByArticleId.getContent().forEach(mb -> {
             Comment comment = mb;
             all.add(comment);
-            String userId = comment.getMember().getUserId();
-            if (null != comment.getMember() && null != comment.getMember().getUserId()) {
+            String userId = comment.getMember().getUsername();
+            if (null != comment.getMember() && null != comment.getMember().getUsername()) {
                 Page<ReplyComment> allByArticleIdAndToMemberId = replyCommentService.findAllByArticleIdAndToMemberId(articleId,
                         userId, pageRequest);
                 all.addAll(allByArticleIdAndToMemberId.getContent());

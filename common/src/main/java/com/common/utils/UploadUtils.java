@@ -6,10 +6,12 @@ import com.qcloud.cos.auth.BasicCOSCredentials;
 import com.qcloud.cos.auth.COSCredentials;
 import com.qcloud.cos.exception.CosClientException;
 import com.qcloud.cos.exception.CosServiceException;
+import com.qcloud.cos.model.ObjectMetadata;
 import com.qcloud.cos.model.PutObjectRequest;
 import com.qcloud.cos.model.PutObjectResult;
 import com.qcloud.cos.region.Region;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -78,32 +80,34 @@ public class UploadUtils {
      */
     public static String fileUpload01(MultipartFile file) throws IOException {
 
-        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."), file.getOriginalFilename().length());
-        String id = IdWorker.getRandomString(1) + IdWorker.getInstance().nextId();
 //        String name = "img/" + "/" + id + end;
 //        Resource resource = new ClassPathResource("static/");
 //        File filePath = resource.getFile();
 //        if (!filePath.exists()) {
 //            filePath.mkdirs();
 //        }
-        File tmpDir = new File(id + end);
-        if (!tmpDir.exists()) {
-            tmpDir.createNewFile();
-        }
-        file.transferTo(tmpDir);
-        String s = uploadToClould("image" + File.separator + id + end, tmpDir, file);
+//        File tmpDir = new File(id + end);
+//        if (!tmpDir.exists()) {
+//            tmpDir.createNewFile();
+//        }
+//        file.transferTo(tmpDir);
+
+        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
+        InputStream inputStream = file.getInputStream();
+        String md5 = DigestUtils.md5Hex(inputStream); // 之后无法保存文件
+        String s = uploadToClould("image" + File.separator + md5 + end, file);
         log.info("文件的原始路径为{}", file.getOriginalFilename());
-        tmpDir.delete();
+//        tmpDir.delete();
 //        log.info("服务器返回的图片数据为{}", s);
 
         return s;
     }
 
     /**
-     * @date  19-8-23 - 上午10:15
-     * @apiNote  上传到腾讯云服务器
+     * @date 19-8-23 - 上午10:15
+     * @apiNote 上传到腾讯云服务器
      */
-    private static String uploadToClould(String name, File localFile, MultipartFile file) {
+    private static String uploadToClould(String name, MultipartFile file) {
 
         try {
             // 指定要上传的文件
@@ -111,18 +115,25 @@ public class UploadUtils {
             String bucketName = "head-image-1252740506";
             // 指定要上传到 COS 上对象键
 //            String key = IdWorker.getInstance().getRandomString(1) + IdWorker.getInstance().nextId();
-            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, name, localFile);
-            PutObjectResult putObjectResult = UploadUtils.getInstance().getCosClient().putObject(putObjectRequest);
-            localFile.delete();
+//            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, name, localFile);
+
+            ObjectMetadata objectMetadata = new ObjectMetadata();
+            objectMetadata.setContentLength(file.getSize());
+
+//            PutObjectResult putObjectResult =
+
+            UploadUtils.getInstance().getCosClient()
+                    .putObject(bucketName, name, file.getInputStream(), objectMetadata);
             return DOMAIN + File.separator + name;
         } catch (CosServiceException serverException) {
             serverException.printStackTrace();
         } catch (CosClientException clientException) {
             clientException.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return "";
     }
-
 
 
 //    /**
