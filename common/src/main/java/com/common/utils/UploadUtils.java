@@ -25,6 +25,7 @@ import java.io.InputStream;
 @Slf4j
 public class UploadUtils {
 
+
     private static UploadUtils uploadUtils;
 
     private COSClient cosClient;
@@ -38,12 +39,12 @@ public class UploadUtils {
     }
 
 
-    private GridFsTemplate gridFsTemplate;
-
-    @Autowired
-    public void setGridFsTemplate(GridFsTemplate gridFsTemplate) {
-        this.gridFsTemplate = gridFsTemplate;
-    }
+//    private GridFsTemplate gridFsTemplate;
+//
+//    @Autowired
+//    public void setGridFsTemplate(GridFsTemplate gridFsTemplate) {
+//        this.gridFsTemplate = gridFsTemplate;
+//    }
 
     private static final String DOMAIN = "https://head-image-1252740506.cos.ap-guangzhou.myqcloud.com";
 
@@ -78,13 +79,14 @@ public class UploadUtils {
      * @return
      * @throws IOException
      */
-    public static String fileUpload01(MultipartFile file) throws IOException {
+    public static String fileUpload01(String pathName,MultipartFile file) throws IOException {
 
+        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".")).toLowerCase();
 //        String name = "img/" + "/" + id + end;
-//        Resource resource = new ClassPathResource("static/");
+//        Resource resource = new ClassPathResource("/");
 //        File filePath = resource.getFile();
 //        if (!filePath.exists()) {
-//            filePath.mkdirs();
+//            filePath.createNewFile();
 //        }
 //        File tmpDir = new File(id + end);
 //        if (!tmpDir.exists()) {
@@ -92,14 +94,17 @@ public class UploadUtils {
 //        }
 //        file.transferTo(tmpDir);
 
-        String end = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
         InputStream inputStream = file.getInputStream();
         String md5 = DigestUtils.md5Hex(inputStream); // 之后无法保存文件
-        String s = uploadToClould("image" + File.separator + md5 + end, file);
-        log.info("文件的原始路径为{}", file.getOriginalFilename());
-//        tmpDir.delete();
-//        log.info("服务器返回的图片数据为{}", s);
-
+        String s = uploadToClould(pathName+"/image/" + md5 + end, file);
+//        log.info("文件的原始路径为{}", file.getOriginalFilename());
+////        file.transferTo(filePath);
+////        System.err.println(filePath.getAbsolutePath());
+////        log.info("文件的原始路径为{}", file.getOriginalFilename());
+////        tmpDir.delete();
+////        log.info("服务器返回的图片数据为{}", s);
+//        String s = "";
+//        s = uploadToClould(pathName+"/" + id + end.toLowerCase(), file);
         return s;
     }
 
@@ -121,16 +126,23 @@ public class UploadUtils {
             objectMetadata.setContentLength(file.getSize());
 
 //            PutObjectResult putObjectResult =
-
             UploadUtils.getInstance().getCosClient()
                     .putObject(bucketName, name, file.getInputStream(), objectMetadata);
             return DOMAIN + File.separator + name;
+//            PutObjectResult putObjectResult =
+//            UploadUtils.getInstance().getCosClient().putObject(bucketName, name, localFile);
+
+
+            // 创建上传Object的Metadata
+//            ObjectMetadata meta = new ObjectMetadata();
+//            // 必须设置ContentLength
+//            meta.setContentLength(file.getSize());
+//            PutObjectResult putObjectResult = UploadUtils.getInstance().getCosClient().putObject(bucketName, name, file.getInputStream() ,meta );
+//            return DOMAIN + "/"+ name;
         } catch (CosServiceException serverException) {
             serverException.printStackTrace();
-        } catch (CosClientException clientException) {
+        } catch (CosClientException | IOException clientException) {
             clientException.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
         return "";
     }

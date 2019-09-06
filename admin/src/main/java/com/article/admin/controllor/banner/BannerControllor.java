@@ -1,7 +1,7 @@
 package com.article.admin.controllor.banner;
 
 
-import com.article.admin.config.ServerConfig;
+import com.common.config.ServerConfig;
 import com.common.utils.UploadUtils;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,6 @@ import com.common.mvc.banner.service.BannerService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -47,9 +46,9 @@ public class BannerControllor {
     @ApiImplicitParam(name = "status",value = "状态，-1表示所有轮播图，0表示不显示的轮播图，1表示显示的轮播图")
     public BaseResponseDto getBannerList(@RequestParam(name = "status",defaultValue = "0") int status) {
         List<Banner> all = bannerService.findAll(status);
-        for (Banner banner : all) {
-            banner.setImagePath(serverConfig.getUrl() + File.separator + banner.getImagePath());
-        }
+//        for (Banner banner : all) {
+//            banner.setImagePath(serverConfig.getUrl() + File.separator + banner.getImagePath());
+//        }
         return BaseResponseDto.success(all);
     }
 
@@ -65,16 +64,16 @@ public class BannerControllor {
             @ApiResponse(code = 400, message = "操作失败"),
             @ApiResponse(code = 0, message = "操作成功")
     })
-    public BaseResponseDto insertBanner(Banner banner, @RequestParam(value = "file") MultipartFile file) throws IOException {
+    public BaseResponseDto insertBanner(Banner banner, MultipartFile file) throws IOException {
 
         if (null == file)
             return BaseResponseDto.error(400, "图片为空");
         if (!file.getContentType().contains("image"))
             return BaseResponseDto.error(400, "只接受图片类型的文件");
-        String name = UploadUtils.fileUpload01(file);
+        String url = UploadUtils.fileUpload01("bannner",file);
 
         banner.setId(IdWorker.getInstance().nextId());
-        banner.setImagePath(name);
+        banner.setImagePath(url);
         Banner insert = bannerService.insert(banner);
         if (null != insert)
             return BaseResponseDto.success(insert);

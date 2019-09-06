@@ -39,7 +39,7 @@ public class BootImgControllor {
             return BaseResponseDto.error(400, "图片不存在");
         if (!file.getContentType().contains("image"))
             return BaseResponseDto.error(400, "请上传图片格式文件");
-        String fileName = UploadUtils.fileUpload01(file);
+        String fileName = UploadUtils.fileUpload01("startup",file);
 
         BootUpImg bootUpImg = new BootUpImg();
 

@@ -27,6 +27,6 @@ eureka:
 #  mapper-locations: classpath:com.tcl.community.mapper/*.xml
 
 server:
-  port: 8991
+  port: 8082
 
 

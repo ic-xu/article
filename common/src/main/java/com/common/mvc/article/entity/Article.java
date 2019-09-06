@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import com.common.mvc.member.entity.Member;
 
+import java.util.List;
 import java.util.Set;
 
 @Data
@@ -55,7 +56,7 @@ public class Article {
     private int Status;
 
     @ApiModelProperty("图片集合")
-    private Set<String> imageList;
+    private List<String> imageList;
 
     @ApiModelProperty("是否收藏")
     private boolean isConllection;
@@ -68,5 +69,4 @@ public class Article {
 
     @ApiModelProperty("阅读数")
     private int readCount;
-
 }

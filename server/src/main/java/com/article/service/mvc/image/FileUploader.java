@@ -41,7 +41,7 @@ public class FileUploader {
             return BaseResponseDto.error(400, "上传文件为空");
 
         try {
-            String path = UploadUtils.fileUpload01(file);
+            String path = UploadUtils.fileUpload01("content/image",file);
         //TODO文件上传
             return BaseResponseDto.successUpload(new Images(path, path, path, path));
         } catch (IOException e) {
