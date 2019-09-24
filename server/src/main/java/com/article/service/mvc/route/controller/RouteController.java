@@ -10,6 +10,7 @@ import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Comparator;
@@ -22,6 +23,14 @@ public class RouteController {
 
     private ServerCache serverCache;
     private AccountService accountService;
+
+    private RedisTemplate<String, String> redisTemplate;
+
+
+    @Autowired
+    public void setRedisTemplate(RedisTemplate<String, String> redisTemplate) {
+        this.redisTemplate = redisTemplate;
+    }
 
 
     @Autowired
@@ -51,29 +60,38 @@ public class RouteController {
      * @ return
      */
     @ApiOperation("推送消息")
-    @PostMapping("pushRoute")
-    public BaseResponseDto pushRoute(@RequestBody P2PReqVO p2pRequest) {
-
-
-        try {
-            List<String> allServer = serverCache.getAll();
-            if (null != allServer) {
-                for (String value : allServer) {
-                    ServiceInfo serviceInfo = JSON.parseObject(value, ServiceInfo.class);
-                    //推送消息
-                    String url = "http://" + serviceInfo.getOutIp() + ":" + serviceInfo.getHttpPort() + "/pushMsg";
-                    ChatReqVO chatVO = new ChatReqVO();
-                    chatVO.setId(IdWorker.getInstance().nextId());
-                    chatVO.setMsg(p2pRequest.getMsg());
-                    chatVO.setFromUserId(p2pRequest.getUserId());
-                    chatVO.setToUserId(p2pRequest.getUserId());
-                    accountService.pushMsg(url, p2pRequest.getUserId(), chatVO);
-                }
+    @RequestMapping(value = "pushRoute", method = RequestMethod.POST)
+    public BaseResponseDto pushRoute(@RequestBody PushMessage pushMessage) {
+        String pushMessageId = IdWorker.getRandomString(1) + IdWorker.getInstance().nextId();
+        List<String> allServer = serverCache.getAll();
+        if (null != allServer) {
+            for (String value : allServer) {
+                ServiceInfo serviceInfo = JSON.parseObject(value, ServiceInfo.class);
+                pushMessage.setId(pushMessageId);
+                PMessage pMessage = pushMessage.getMsg();
+                String replace = pMessage.getContent().replaceAll("\\s+", "");
+                pMessage.setContent(replace);
+                pMessage.setTime(System.currentTimeMillis());
+                pushMessage.setMsg(pMessage);
+                redisTemplate.convertAndSend(serviceInfo.getOutIp(), JSON.toJSONString(pushMessage));
             }
-            return BaseResponseDto.success("推动成功");
-        } catch (Exception e) {
-            return BaseResponseDto.error(400, e.getMessage());
         }
+        return BaseResponseDto.success(pushMessageId);
+    }
+
+
+    /**
+     * 推送消息的路由
+     *
+     * @ param p2pRequest
+     * @ return
+     * @ return
+     */
+    @ApiOperation("获取某条通知推送记录")
+    @GetMapping(value = "pushMessageCount")
+    public BaseResponseDto pushMessageCount(String pushMessageId) {
+
+        return BaseResponseDto.success(redisTemplate.opsForValue().get(pushMessageId));
     }
 
 

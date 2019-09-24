@@ -2,104 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b7bc815-d3d9-489e-aa3c-1730f580f2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/HtmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/TimeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_1_4_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_turbine_1_4_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PushMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/config/ServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/boot/BootImgControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/boot/BootImgControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/image/FileUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/image/FileUploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/common/utils/UploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/UploadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/banner/BannerControllor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/FileUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/image/FileUploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/upload/Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/upload/Upload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/ServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/ServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/cache/ServerCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/cache/ServerCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/config/AppConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/BeanConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/config/BeanConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/BeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/config/BeanConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/ServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/config/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/kit/ZKit.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/kit/ZKit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/AboutControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/about/AboutControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/ArticleControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/article/ArticleControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/BannerControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/banner/BannerControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/CommentControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/comment/CommentControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/LikesControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/LikesControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/TabsControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/TabsControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/TagsControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/community/TagsControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/FeedBackControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/feedback/FeedBackControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/image/FileUploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/image/FileUploader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/MemberControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/member/MemberControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/QuestControllor.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/qa/QuestControllor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ChatReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ChatReqVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/LoginResposeDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/LoginResposeDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/P2PReqVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/P2PReqVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ResposServiceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ResposServiceInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ServiceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/bean/ServiceInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/controller/RouteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/controller/RouteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/service/impl/AccountServiceRedisImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/service/impl/AccountServiceRedisImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/upload/Upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/upload/Upload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/BaseGetData.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/utils/BaseGetData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/surefire-reports/TEST-com.article.service.ServiceApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/surefire-reports/TEST-com.article.service.ServiceApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/surefire-reports/com.article.service.ServiceApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/surefire-reports/com.article.service.ServiceApplicationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -163,91 +76,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/service/AboutRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="55" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/boot/BootImgControllor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/cache/ServerCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,13 +97,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/upload/Upload.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleContentRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleServerImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/article/ArticleControllor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1618#1641#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="2" column="47" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -331,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin-servier/src/main/java/com/admin/cx/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/image/FileUploader.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/service/StartUpChartServiceImp.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/StartUpControllor.java" />
         <option value="$PROJECT_DIR$/admin/pom.xml" />
@@ -363,7 +229,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/common/utils/IdWorker.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/member/MemberControllor.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/LoginResposeDate.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/ResposServiceInfo.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/entity/Member.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/comment/CommentControllor.java" />
@@ -382,6 +247,9 @@
         <option value="$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PMessage.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PushMessage.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" />
       </list>
     </option>
   </component>
@@ -411,59 +279,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controllor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -499,51 +320,55 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="article" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="article" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -571,9 +396,23 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/community01/src/main/java/com/tcl/community/mvc/user/service" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/ddd" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp.abc" />
+      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp/WEB-INF/jsp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.article.admin" />
       <recent name="com.tcl.community" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.article.service.mvc.route.bean" />
+      <recent name="com.article.service.mvc.route" />
+      <recent name="com.article.service.config" />
+      <recent name="com.common.utils" />
+      <recent name="com.article.service.cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/src/main/java/com/article/service/config" />
@@ -581,20 +420,6 @@
       <recent name="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server/src/main/resources/static/img/image/png" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.article.service.mvc.route" />
-      <recent name="com.article.service.config" />
-      <recent name="com.common.utils" />
-      <recent name="com.article.service.cache" />
-      <recent name="com.admin.cx" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/community01/src/main/java/com/tcl/community/mvc/user/service" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/ddd" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp.abc" />
-      <recent name="$PROJECT_DIR$/community01/src/main/resources/webapp/WEB-INF/jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -765,12 +590,19 @@
       <workItem from="1567577520029" duration="2992000" />
       <workItem from="1567593208683" duration="14499000" />
       <workItem from="1567741352480" duration="1260000" />
-      <workItem from="1567768650901" duration="1001000" />
+      <workItem from="1567768650901" duration="1695000" />
+      <workItem from="1568019982356" duration="5189000" />
+      <workItem from="1568636489981" duration="1313000" />
+      <workItem from="1568705340984" duration="712000" />
+      <workItem from="1568791508427" duration="920000" />
+      <workItem from="1568873914192" duration="607000" />
+      <workItem from="1568883971535" duration="2044000" />
+      <workItem from="1569294873510" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523278000" />
+    <option name="totallyTimeSpent" value="535356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,7 +614,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1385" height="904" extended-state="6" />
+    <frame x="54" y="-11" width="1387" height="912" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -790,19 +622,19 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.28614232" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2659176" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.32760474" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32747805" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.6649937" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.52434456" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32747805" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32747805" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.663739" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.57089084" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.5370138" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.7013802" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.7728984" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -914,95 +746,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/user/entity/UserEntity.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/AppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/ServerConfig.java" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/BeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/kit/ServerListListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/kit/ZKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/BaseResponseDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/SpringBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/utils/HttpRequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="21" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/service/impl/AccountServiceRedisImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1024,16 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/ChatReqVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1088,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/article/ArticleControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="165" column="51" selection-start-line="165" selection-start-column="51" selection-end-line="165" selection-end-column="51" />
-          <folding>
-            <element signature="e#1618#1641#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/comment/CommentControllor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1109,16 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="92" column="39" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1225,6 +938,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/ChatReqVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PushMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/bean/PMessage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/boot/BootImgControllor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1242,6 +1007,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.9.RELEASE/spring-data-mongodb-2.1.9.RELEASE.jar!/org/springframework/data/mongodb/repository/MongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/about/AboutControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/service/AboutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/entity/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/upload/Upload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1252,68 +1080,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/article/ArticleControllor.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/service/StartUpChartRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="108" column="59" selection-start-line="108" selection-start-column="59" selection-end-line="108" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/config/ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/banner/BannerControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="90">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/start_up/StartUpControllor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/start_up/service/StartUpChartServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/about/service/AboutRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleContentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleServerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/article/admin/controllor/article/ArticleControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+          <folding>
+            <element signature="e#1618#1641#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="47" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/common/mvc/article/service/ArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

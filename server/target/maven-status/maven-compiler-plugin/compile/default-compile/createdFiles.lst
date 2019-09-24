@@ -1,11 +1,13 @@
 com/article/service/mvc/start_up/StartUpControllor.class
 com/article/service/kit/ZKit.class
+com/article/service/mvc/route/bean/PushMessage.class
 com/article/service/config/BeanConfig$1.class
 com/article/service/kit/ServerListListener.class
 com/article/service/mvc/qa/QuestControllor.class
 com/article/service/mvc/member/MemberControllor.class
 com/article/service/mvc/route/bean/ChatReqVO.class
 com/article/service/mvc/comment/CommentControllor.class
+com/article/service/mvc/route/bean/PMessage.class
 com/article/service/config/BeanConfig.class
 com/article/service/mvc/route/bean/LoginResposeDate.class
 com/article/service/mvc/boot/BootImgControllor.class

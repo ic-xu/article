@@ -25,7 +25,9 @@
 /local/sda/project/article/server/src/main/java/com/article/service/config/AppConfiguration.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/image/FileUploader.java
 /local/sda/project/article/server/src/main/java/com/article/service/utils/BaseGetData.java
+/local/sda/project/article/server/src/main/java/com/article/service/mvc/route/bean/PMessage.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/route/bean/ChatReqVO.java
 /local/sda/project/article/server/src/main/java/com/article/service/mvc/feedback/FeedBackControllor.java
+/local/sda/project/article/server/src/main/java/com/article/service/mvc/route/bean/PushMessage.java
 /local/sda/project/article/server/src/main/java/com/article/service/config/BeanConfig.java
 /local/sda/project/article/server/src/main/java/com/article/service/cache/ServerCache.java
