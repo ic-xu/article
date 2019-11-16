@@ -42,7 +42,7 @@ public class CommentControllor {
      * @return
      */
     @PostMapping("/save")
-    @ApiOperation("保存留言")
+    @ApiOperation("保存评论")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "articleId", value = "文章id", required = true),
             @ApiImplicitParam(name = "content", value = "留言内容", required = true),

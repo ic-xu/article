@@ -34,7 +34,7 @@ public class QuestControllor {
     }
 
 
-    @ApiOperation("保存文章")
+    @ApiOperation("保存问题信息")
     @PostMapping("/save")
     @ApiImplicitParam(name = "content", value = "文章内容", required = true)
     public BaseResponseDto save(Quest quest, String content) {
@@ -46,7 +46,7 @@ public class QuestControllor {
         return BaseResponseDto.success(save);
     }
 
-    @ApiOperation("获取问答列表")
+    @ApiOperation("获取问题列表")
     @GetMapping("/getQuest/{page}")
     public BaseResponseDto getQuest(@PathVariable("page") int page) {
 
