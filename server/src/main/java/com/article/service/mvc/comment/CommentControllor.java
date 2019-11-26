@@ -23,7 +23,6 @@ import java.util.List;
 @RestController
 @Api(tags = "评论和回复相关")
 @RequestMapping("/comment")
-@SuppressWarnings("ALL")
 public class CommentControllor {
 
     @Autowired
@@ -36,10 +35,10 @@ public class CommentControllor {
     /**
      * 保存留言
      *
-     * @param articleId
-     * @param content
-     * @param userId
-     * @return
+     * @param articleId id
+     * @param content con
+     * @param userId user
+     * @return fd
      */
     @PostMapping("/save")
     @ApiOperation("保存评论")
@@ -64,11 +63,11 @@ public class CommentControllor {
     /**
      * 保存回复
      *
-     * @param articleId
-     * @param content
-     * @param userId
-     * @param toUserId
-     * @return
+     * @param articleId fd
+     * @param content dfd
+     * @param userId dfd
+     * @param toUserId fd
+     * @return fd
      */
     @PostMapping("/saveReplay")
     @ApiOperation("保存回复")
@@ -95,11 +94,11 @@ public class CommentControllor {
     /**
      * 删除留言或回复
      *
-     * @param commentId
-     * @return
+     * @param commentId df
+     * @return df
      */
     @PostMapping("/deleteComment")
-    @ApiOperation("删除留言或回复")
+    @ApiOperation("删除留言、回复")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "commentId", value = "删除回复或者留言的唯一表示", required = true)
     })
@@ -117,8 +116,8 @@ public class CommentControllor {
     /**
      * 获取留言
      *
-     * @param articleId
-     * @return
+     * @param articleId df
+     * @return dfd
      */
     @GetMapping("/getAllByArticleId")
     @ApiOperation("获取留言")

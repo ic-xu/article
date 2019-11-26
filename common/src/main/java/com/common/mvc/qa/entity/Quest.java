@@ -21,7 +21,7 @@ public class Quest {
     private boolean isHot;
 
     @ApiModelProperty("问题分类")
-    private String classify;
+    private String questClassify;
 
     @ApiModelProperty("问题提问者")
     private String UserName;
@@ -41,6 +41,5 @@ public class Quest {
 
     @ApiModelProperty
     private String Content;
-
 
 }

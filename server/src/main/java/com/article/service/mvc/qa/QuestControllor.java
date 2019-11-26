@@ -16,7 +16,7 @@ import com.common.utils.IdWorker;
 
 
 /**
- * Created by ubuntu
+ * Created by chenxu
  * On 19-7-20 下午1:49
  */
 
@@ -59,6 +59,13 @@ public class QuestControllor {
     @GetMapping("/getContent/{id}")
     public BaseResponseDto getContent(@PathVariable("id") String id) {
         return BaseResponseDto.success(questServiceImp.getQuestById(id));
+    }
+
+
+    @ApiOperation("获取所有的分类列表")
+    @GetMapping("/quest/classify/json")
+    public BaseResponseDto getQuestClassify() {
+        return BaseResponseDto.success(questServiceImp.getAllClassify());
     }
 
 }

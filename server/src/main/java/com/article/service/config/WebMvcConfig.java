@@ -17,5 +17,4 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
                 .maxAge(3600);
     }
 
-
 }

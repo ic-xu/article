@@ -77,41 +77,22 @@ public class ArticleControllor {
         article.setId("A" + IdWorker.getInstance().nextId());
         article.setHappenTime(System.currentTimeMillis());
 
-//        article.setArticleTitle(articleTitle);
-//        article.setDesc(articleDescribe);
-//        Member member = new Member();
-//        member.setUsername(userId);
-//        article.setAuther(member);
-//        article.setKeyWord(keyWord);
-//        article.setTags(tags);
-//        article.setLike(false);
-//        article.setStatus(0);
-//        article.setNewsImg(image);
-//
-//        String content = article.getContent().replaceAll("<img", "<img style = 'width:100%' ");
-//        article.setContent(content);
-//        System.out.println(article);
-//        article.setStatus(1);
-//        if (articleServerImp.insertArticle(article)) {
-//            ArticleContent articleContent = new ArticleContent();
-//            articleContent.setArticleId(article.getId());
-//            articleContent.setContent(article.getContent());
-//            articleServerImp.saveContent(articleContent);
         article.setHappenTime(System.currentTimeMillis());
         article.setLike(false);
         article.setStatus(0);
         System.out.println(article);
         article.setStatus(1);
-        String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
-        article.setContent(contentHtml);
+//        String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
+        article.setContent(null);
         if (articleServerImp.insertArticle(article)) {
-//            ArticleContent articleContent = new ArticleContent();
-//            articleContent.setArticleId(article.getId());
-//            String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
-//            articleContent.setContent(contentHtml);
-//            articleServerImp.saveContent(articleContent);
-//            article.setContent(null);
-//            articleServerImp.save(article);
+            ArticleContent articleContent = new ArticleContent();
+            articleContent.setArticleId(article.getId());
+            //拼接标题和时间等
+            String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
+            articleContent.setContent(contentHtml);
+            articleServerImp.saveContent(articleContent);
+            article.setContent(null);
+            articleServerImp.save(article);
             return BaseResponseDto.success(true);
         }
         return BaseResponseDto.success(false);
