@@ -1,6 +1,7 @@
 package com.article.service.mvc.qa;
 
 import com.article.service.utils.BaseGetData;
+import com.common.mvc.qa.entity.Answer;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -38,19 +39,19 @@ public class QuestControllor {
     @PostMapping("/save")
     @ApiImplicitParam(name = "content", value = "文章内容", required = true)
     public BaseResponseDto save(Quest quest, String content) {
-        quest.setConllection(false);
+        quest.setIsConllection(false);
         quest.setHappenTIme(System.currentTimeMillis());
-        quest.setHot(false);
+        quest.setIsHot(false);
         quest.setQuestId(IdWorker.getInstance().nextId() + "");
         Quest save = questServiceImp.save(quest, content);
         return BaseResponseDto.success(save);
     }
 
     @ApiOperation("获取问题列表")
-    @GetMapping("/getQuest/{page}")
-    public BaseResponseDto getQuest(@PathVariable("page") int page) {
+    @GetMapping("/getQuest/{page}/{size}")
+    public BaseResponseDto getQuest(@PathVariable("page") int page,@PathVariable("size") int size) {
 
-        PageRequest pageRequest = PageRequest.of(page, 20, Sort.by(Sort.Direction.DESC, "happenTIme"));
+        PageRequest pageRequest = PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "happenTIme"));
         Page<Quest> quest = questServiceImp.getQuest(pageRequest);
         return BaseResponseDto.success(new BaseGetData<>(page, quest.getContent(), quest.getTotalPages()));
     }
@@ -67,5 +68,20 @@ public class QuestControllor {
     public BaseResponseDto getQuestClassify() {
         return BaseResponseDto.success(questServiceImp.getAllClassify());
     }
+
+
+    @ApiOperation("获取答案列表")
+    @GetMapping("/answer/{page}/{size}/json")
+    public BaseResponseDto getQuestAnswer(String questId,@PathVariable("page") int page,@PathVariable("size") int size) {
+        return BaseResponseDto.success(questServiceImp.getAnswers(questId,page,size));
+    }
+
+    @ApiOperation("保存答案列表")
+    @PostMapping("/answer/save")
+    public BaseResponseDto getQuestAnswer(Answer answer) {
+        questServiceImp.SaveAnswers(answer);
+        return BaseResponseDto.success();
+    }
+
 
 }

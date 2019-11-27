@@ -1,7 +1,6 @@
 package com.article.service.mvc.article;
 
 
-import com.common.config.ServerConfig;
 import com.common.utils.HtmlUtils;
 import com.common.utils.TimeUtils;
 import io.swagger.annotations.*;
@@ -12,14 +11,11 @@ import com.common.mvc.article.entity.Article;
 import com.common.mvc.article.entity.ArticleContent;
 import com.common.mvc.article.entity.ArticleData;
 import com.common.mvc.article.service.ArticleServerImp;
-import com.common.mvc.comment.service.CommentService;
-import com.common.mvc.comment.service.ReplyCommentService;
+import com.common.mvc.article.service.CommentService;
+import com.common.mvc.article.service.ReplyCommentService;
 import com.common.mvc.member.service.MemberService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 @Api(tags = "文章相关接口")
@@ -33,13 +29,6 @@ public class ArticleControllor {
     private CommentService commentService;
 
     private ReplyCommentService replyCommentService;
-
-    private ServerConfig serverConfig;
-
-    @Autowired
-    public void setServerConfig(ServerConfig serverConfig) {
-        this.serverConfig = serverConfig;
-    }
 
     @Autowired
     public void setArticleServerImp(ArticleServerImp articleServerImp) {

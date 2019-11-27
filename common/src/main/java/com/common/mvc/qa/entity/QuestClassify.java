@@ -21,7 +21,7 @@ public class QuestClassify {
 
     @Id
     @ApiModelProperty("id")
-    private long id;
+    private Long id;
 
     @ApiModelProperty("类名")
     private String classifyName;

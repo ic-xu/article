@@ -17,8 +17,8 @@ public class Quest {
     @ApiModelProperty("id")
     private String questId;
 
-    @ApiModelProperty("是否是热门话题")
-    private boolean isHot;
+//    @ApiModelProperty("是否是热门话题")
+//    private Boolean isHot;
 
     @ApiModelProperty("问题分类")
     private String questClassify;
@@ -29,17 +29,22 @@ public class Quest {
     @ApiModelProperty("问题描述")
     private String describe;
 
-
-    @ApiModelProperty("是否收藏")
-    private boolean isConllection;
+//    @ApiModelProperty("是否收藏")
+//    private Boolean isConllection;
 
     @ApiModelProperty
-    private long happenTIme;
+    private Long happenTIme;
 
     @ApiModelProperty("问题赏金")
-    private double reWard;
+    private Double reWard;
 
-    @ApiModelProperty
+    @ApiModelProperty("问题详细描述")
     private String Content;
+
+    @ApiModelProperty("回答数")
+    private Integer answerCount;
+
+    @ApiModelProperty("观看数")
+    private Long readCount;
 
 }

@@ -2,7 +2,6 @@ package com.common.mvc.article.service;
 
 import com.common.mvc.article.entity.Article;
 import com.common.mvc.article.entity.ArticleContent;
-import com.common.mvc.community.service.LikesServerImp;
 import com.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
