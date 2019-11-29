@@ -2,6 +2,7 @@ package com.article.service.mvc.qa;
 
 import com.article.service.utils.BaseGetData;
 import com.common.mvc.qa.entity.Answer;
+import com.common.mvc.qa.entity.QuestClassify;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -22,7 +23,7 @@ import com.common.utils.IdWorker;
  */
 
 @RestController
-@RequestMapping("/questControllor")
+@RequestMapping("quest/")
 @Api(tags = "问答相关")
 public class QuestControllor {
 
@@ -36,48 +37,57 @@ public class QuestControllor {
 
 
     @ApiOperation("保存问题信息")
-    @PostMapping("/save")
+    @PostMapping("save")
     @ApiImplicitParam(name = "content", value = "文章内容", required = true)
-    public BaseResponseDto save(Quest quest, String content) {
-        quest.setIsConllection(false);
+    public BaseResponseDto save(Quest quest) {
+//        quest.setIsConllection(false);
         quest.setHappenTIme(System.currentTimeMillis());
-        quest.setIsHot(false);
+//        quest.setIsHot(false);
         quest.setQuestId(IdWorker.getInstance().nextId() + "");
-        Quest save = questServiceImp.save(quest, content);
+        Quest save = questServiceImp.save(quest);
         return BaseResponseDto.success(save);
     }
 
     @ApiOperation("获取问题列表")
-    @GetMapping("/getQuest/{page}/{size}")
-    public BaseResponseDto getQuest(@PathVariable("page") int page,@PathVariable("size") int size) {
+    @GetMapping("{page}/{size}/json")
+    public BaseResponseDto getQuest(@PathVariable("page") int page,@PathVariable("size") int size,@RequestParam(required = false) String classify) {
 
         PageRequest pageRequest = PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "happenTIme"));
-        Page<Quest> quest = questServiceImp.getQuest(pageRequest);
+        Page<Quest> quest = questServiceImp.getQuest(classify,pageRequest);
         return BaseResponseDto.success(new BaseGetData<>(page, quest.getContent(), quest.getTotalPages()));
     }
 
     @ApiOperation("查看问题详情")
-    @GetMapping("/getContent/{id}")
+    @GetMapping("getContent/{id}")
     public BaseResponseDto getContent(@PathVariable("id") String id) {
         return BaseResponseDto.success(questServiceImp.getQuestById(id));
     }
 
 
     @ApiOperation("获取所有的分类列表")
-    @GetMapping("/quest/classify/json")
+    @GetMapping("classify/json")
     public BaseResponseDto getQuestClassify() {
         return BaseResponseDto.success(questServiceImp.getAllClassify());
     }
 
 
+
+    @ApiOperation("保存分类列表")
+    @GetMapping("classify/save")
+    public BaseResponseDto saveClassify(QuestClassify questClassify) {
+        return BaseResponseDto.success(questServiceImp.save(questClassify));
+    }
+
+
+
     @ApiOperation("获取答案列表")
-    @GetMapping("/answer/{page}/{size}/json")
+    @GetMapping("answer/{page}/{size}/json")
     public BaseResponseDto getQuestAnswer(String questId,@PathVariable("page") int page,@PathVariable("size") int size) {
         return BaseResponseDto.success(questServiceImp.getAnswers(questId,page,size));
     }
 
     @ApiOperation("保存答案列表")
-    @PostMapping("/answer/save")
+    @PostMapping("answer/save")
     public BaseResponseDto getQuestAnswer(Answer answer) {
         questServiceImp.SaveAnswers(answer);
         return BaseResponseDto.success();

@@ -5,6 +5,8 @@ import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Document
 @Data
 @NoArgsConstructor
@@ -29,8 +31,10 @@ public class Quest {
     @ApiModelProperty("问题描述")
     private String describe;
 
-//    @ApiModelProperty("是否收藏")
+    //    @ApiModelProperty("是否收藏")
 //    private Boolean isConllection;
+    @ApiModelProperty("图片列表")
+    private List<String> images;
 
     @ApiModelProperty
     private Long happenTIme;
@@ -42,9 +46,9 @@ public class Quest {
     private String Content;
 
     @ApiModelProperty("回答数")
-    private Integer answerCount;
+    private long answerCount;
 
     @ApiModelProperty("观看数")
-    private Long readCount;
+    private long readCount;
 
 }

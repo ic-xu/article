@@ -20,9 +20,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class QuestClassify {
 
     @Id
-    @ApiModelProperty("id")
     private Long id;
 
     @ApiModelProperty("类名")
     private String classifyName;
+
+    @ApiModelProperty("二级分类列表")
+    private String subClassify;
 }
