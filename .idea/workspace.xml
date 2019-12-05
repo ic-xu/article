@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466738fe-5310-4547-bf4a-fdc677a6c876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/entity/CreativeClassify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/service/CreativeClassifyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/service/CreativeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/service/CreativeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/msghistory/entity/MessageHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/msghistory/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/msghistory/service/MessageHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/msghistory/service/MessageHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/creative/CreativeControllor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/msghistory/MessageHistoryControllor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-geteway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-geteway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/entity/Creative.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/creative/entity/Creative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/common/mvc/member/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/route/controller/RouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/test/java/com/article/service/ServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/test/java/com/article/service/ServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/controller/RouteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/article/service/mvc/route/controller/RouteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/test-classes/com/article/service/ServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/test-classes/com/article/service/ServiceApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +45,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/creative/CreativeControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
+            <state relative-caret-position="20">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
@@ -84,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -98,9 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-7327">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#20476#20482#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,6 +183,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -214,7 +194,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
     <option name="y" value="194" />
     <option name="width" value="1375" />
@@ -239,55 +219,6 @@
             <path>
               <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.article.service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.article.service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mvc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="article" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="server" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.article.service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mvc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creative" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -554,7 +485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498000" />
+    <option name="totallyTimeSpent" value="752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,6 +498,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-14" width="1394" height="915" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -574,7 +506,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32670808" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -592,7 +524,7 @@
       <window_info anchor="bottom" id="Debug" order="13" weight="0.6508728" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.30064517" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.49565217" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.5137157" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32981133" />
@@ -752,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7327">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#20476#20482#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,13 +699,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -803,8 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/article/service/mvc/creative/CreativeControllor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="20">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
