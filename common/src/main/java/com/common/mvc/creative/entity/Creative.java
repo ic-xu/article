@@ -20,7 +20,10 @@ public class Creative {
 
     private String classify;
 
-    @ApiModelProperty("内容")
+    @ApiModelProperty("标题")
+    private String title;
+
+    @ApiModelProperty("详细内容")
     private String content;
 
     private Member auther;
@@ -32,4 +35,6 @@ public class Creative {
     private Long readCount;
 
     private Long agreeCount;
+
+    private int status;
 }

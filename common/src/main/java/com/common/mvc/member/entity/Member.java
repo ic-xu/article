@@ -10,8 +10,9 @@ import org.springframework.data.annotation.Id;
 @ToString
 public class Member {
 
-
     @Id
+    private String id;
+
     @ApiModelProperty("用户名")
     private String username;
 

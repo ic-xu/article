@@ -8,6 +8,7 @@ import com.common.mvc.member.entity.Member;
 import com.common.mvc.member.service.MemberService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -19,6 +20,7 @@ import java.util.TreeMap;
 
 @RestController
 @RequestMapping("user/")
+@Api(tags = "路由相关")
 public class RouteController {
 
     private ServerCache serverCache;
