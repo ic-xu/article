@@ -1,6 +1,7 @@
 package com.article.service.mvc.creative;
 
 import com.common.mvc.creative.entity.Creative;
+import com.common.mvc.creative.entity.CreativeCollect;
 import com.common.mvc.creative.service.CreativeService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
@@ -58,4 +59,24 @@ public class CreativeControllor {
     public BaseResponseDto classifyJson() {
         return BaseResponseDto.success(creativeService.findAllClassify());
     }
+
+
+    @PostMapping("/collection")
+    @ApiOperation("添加/取消 收藏")
+    public BaseResponseDto addCollect(String userId, Long creativeId) {
+        CreativeCollect creativeCollect = new CreativeCollect();
+        creativeCollect.setId(creativeId + "-" + userId);
+        creativeCollect.setUserId(userId);
+        creativeCollect.setCreativeId(creativeId);
+        HashMap<String, Object> result = new HashMap<>();
+//        boolean b = creativeService.addCollect(creativeCollect);
+//        if (b)
+//            result.put("msg", "添加收藏成功");
+//        else result.put("msg", "取消收藏成功");
+//        result.put("result", b);
+        return BaseResponseDto.success(creativeService.addCollect(creativeCollect));
+
+    }
+
+
 }

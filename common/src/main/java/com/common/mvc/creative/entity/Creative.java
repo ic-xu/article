@@ -2,6 +2,7 @@ package com.common.mvc.creative.entity;
 
 
 import com.common.mvc.member.entity.Member;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -26,6 +27,9 @@ public class Creative {
     @ApiModelProperty("详细内容")
     private String content;
 
+    @ApiModelProperty("描述信息")
+    private String describe;
+
     private Member auther;
 
     private Long createTime;
@@ -34,7 +38,15 @@ public class Creative {
 
     private Long readCount;
 
-    private Long agreeCount;
+    private Long collectCount;
 
+    private boolean hot = true;
+
+    private boolean fresh = true;
+
+    @JsonIgnore
     private int status;
+
+    @ApiModelProperty("默认这个为false，只有当用户点击之后才会编程true")
+    private boolean collect = false;
 }

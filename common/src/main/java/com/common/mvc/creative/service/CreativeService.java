@@ -3,6 +3,7 @@ package com.common.mvc.creative.service;
 
 import com.common.mvc.creative.entity.Creative;
 import com.common.mvc.creative.entity.CreativeClassify;
+import com.common.mvc.creative.entity.CreativeCollect;
 import com.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -22,6 +23,9 @@ public class CreativeService {
 
     @Autowired
     private CreativeClassifyRepository creativeClassifyRepository;
+
+    @Autowired
+    private CreativeCollectRepository creativeCollectRepository;
 
 
     /*
@@ -54,5 +58,15 @@ public class CreativeService {
         if (null == classify || "全部".equalsIgnoreCase(classify))
             return creativeRepository.findAllByStatus(status, pageRequest);
         return creativeRepository.findAllByStatusAndClassify(status, classify, pageRequest);
+    }
+
+    public boolean addCollect(CreativeCollect creativeCollect) {
+        if (!creativeCollectRepository.existsById(creativeCollect.getId())) {
+            creativeCollectRepository.save(creativeCollect);
+            return  true;
+        }else {
+            creativeCollectRepository.delete(creativeCollect);
+            return false;
+        }
     }
 }

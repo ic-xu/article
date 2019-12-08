@@ -116,21 +116,21 @@ public class RouteController {
 
         LoginResposeDate loginResposeDate = new LoginResposeDate();
         loginResposeDate.setUser(user);
-        System.err.println(serverCache.getAll().size());
-        serverCache.getAll().forEach(serverString -> {
-            ServiceInfo serviceInfo = JSON.parseObject(serverString, ServiceInfo.class);
-            String url = "http://" + serviceInfo.getOutIp() + ":" + serviceInfo.getHttpPort() + "/getUserCount";
-            long serviceOnlneCount = Long.parseLong(accountService.getServiceOnlneCount(url));
-            treeMap.put(serviceOnlneCount, serviceInfo);
-
-        });
-        if (null == treeMap.firstEntry())
-            throw new Exception("IM服务器异常");
-        ServiceInfo value = treeMap.firstEntry().getValue();
+//        System.err.println(serverCache.getAll().size());
+//        serverCache.getAll().forEach(serverString -> {
+//            ServiceInfo serviceInfo = JSON.parseObject(serverString, ServiceInfo.class);
+//            String url = "http://" + serviceInfo.getOutIp() + ":" + serviceInfo.getHttpPort() + "/getUserCount";
+//            long serviceOnlneCount = Long.parseLong(accountService.getServiceOnlneCount(url));
+//            treeMap.put(serviceOnlneCount, serviceInfo);
+//
+//        });
+//        if (null == treeMap.firstEntry())
+//            throw new Exception("IM服务器异常");
+//        ServiceInfo value = treeMap.firstEntry().getValue();
         ResposServiceInfo resposServiceInfo = new ResposServiceInfo();
-        resposServiceInfo.setHttpPort(value.getHttpPort());
-        resposServiceInfo.setServerPort(value.getNettyPort());
-        resposServiceInfo.setUrl(value.getOutIp());
+//        resposServiceInfo.setHttpPort(value.getHttpPort());
+//        resposServiceInfo.setServerPort(value.getNettyPort());
+//        resposServiceInfo.setUrl(value.getOutIp());
         loginResposeDate.setServiceInfo(resposServiceInfo);
         return BaseResponseDto.success(loginResposeDate);
     }
