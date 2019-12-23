@@ -1,9 +1,9 @@
-package com.article.service.mvc.route.service.impl;
+package com.common.mvc.route.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.article.service.mvc.route.bean.ChatReqVO;
-import com.article.service.mvc.route.service.AccountService;
+import com.common.mvc.route.bean.ChatReqVO;
+import com.common.mvc.route.service.AccountService;
 import com.common.utils.HttpRequestUtils;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.springframework.beans.factory.annotation.Autowired;

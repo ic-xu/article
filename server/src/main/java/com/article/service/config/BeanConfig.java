@@ -63,12 +63,6 @@ public class BeanConfig {
     }
 
 
-
-    @Bean(name = "closeableHttpClient")
-    public CloseableHttpClient getHttpClint() {
-        return HttpClients.createDefault();
-    }
-
 //    @Bean
 //    public RouteHandle buildRouteHandle() throws Exception {
 //        String routeWay = appConfiguration.getRouteWay();

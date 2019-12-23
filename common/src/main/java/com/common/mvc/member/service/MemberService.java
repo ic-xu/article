@@ -22,7 +22,12 @@ public class MemberService {
 
 
     public Member save(Member user) {
-        return memberRepository.save(user);
+        Member username = memberRepository.findByUsername(user.getUsername());
+        if(null == username){
+            user.setId("M"+IdWorker.getInstance().nextId());
+            return memberRepository.save(user);
+        }
+        return username;
     }
 
 

@@ -1,4 +1,4 @@
-package com.article.service.mvc.route.bean;
+package com.common.mvc.route.bean;
 
 import com.common.mvc.member.entity.Member;
 import lombok.AllArgsConstructor;

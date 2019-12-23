@@ -8,7 +8,7 @@ import com.common.mvc.member.entity.Member;
 
 public interface MemberRepository extends MongoRepository<Member, String> {
 
-    public Member findByUsername(String userName);
+    Member findByUsername(String userName);
 
     Page<Member> findAllByJob(String jop, PageRequest pageRequest);
 

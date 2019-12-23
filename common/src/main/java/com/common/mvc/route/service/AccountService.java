@@ -1,6 +1,6 @@
-package com.article.service.mvc.route.service;
+package com.common.mvc.route.service;
 
-import com.article.service.mvc.route.bean.ChatReqVO;
+import com.common.mvc.route.bean.ChatReqVO;
 
 /**
  * Function: 账户服务

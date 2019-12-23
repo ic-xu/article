@@ -1,11 +1,11 @@
-package com.article.service.mvc.route.controller;
+package com.article.service.mvc.route;
 
 import com.alibaba.fastjson.JSON;
 import com.article.service.cache.ServerCache;
-import com.article.service.mvc.route.bean.*;
-import com.article.service.mvc.route.service.AccountService;
 import com.common.mvc.member.entity.Member;
 import com.common.mvc.member.service.MemberService;
+import com.common.mvc.route.bean.*;
+import com.common.mvc.route.service.AccountService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
 import io.swagger.annotations.Api;
@@ -24,6 +24,7 @@ import java.util.TreeMap;
 public class RouteController {
 
     private ServerCache serverCache;
+
     private AccountService accountService;
 
     private RedisTemplate<String, String> redisTemplate;

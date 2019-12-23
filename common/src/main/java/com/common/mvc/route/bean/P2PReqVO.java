@@ -1,7 +1,10 @@
-package com.article.service.mvc.route.bean;
+package com.common.mvc.route.bean;
 
 import io.swagger.annotations.ApiModelProperty;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.validation.constraints.NotNull;
 
