@@ -30,10 +30,11 @@ public class BeanConfig {
         this.appConfiguration = appConfiguration;
     }
 
-    @Bean
-    public ZkClient buildZKClient() {
-        return new ZkClient(appConfiguration.getZkAddr(), appConfiguration.getZkConnectTimeout());
-    }
+    //关闭zookeeper
+//    @Bean
+//    public ZkClient buildZKClient() {
+//        return new ZkClient(appConfiguration.getZkAddr(), appConfiguration.getZkConnectTimeout());
+//    }
 
     @Bean
     public LoadingCache<String, String> buildCache() {

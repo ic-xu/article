@@ -146,7 +146,8 @@ public class RouteController {
     @RequestMapping(value = "getRouteList", method = RequestMethod.POST)
     public BaseResponseDto getRouteList() {
 
-        return BaseResponseDto.success(serverCache.getAll() + "");
+//        return BaseResponseDto.success(serverCache.getAll() + "");
+        return BaseResponseDto.success(new ResposServiceInfo());
     }
 
 

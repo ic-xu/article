@@ -28,10 +28,10 @@ public class ZKit {
         this.serverCache = serverCache;
     }
 
-    @Autowired
-    public void setZkClient(ZkClient zkClient) {
-        this.zkClient = zkClient;
-    }
+//    @Autowired
+//    public void setZkClient(ZkClient zkClient) {
+//        this.zkClient = zkClient;
+//    }
 
     /**
      * 监听事件

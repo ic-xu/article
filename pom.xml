@@ -27,6 +27,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <springboot.version>2.1.6.RELEASE</springboot.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
     </properties>
 

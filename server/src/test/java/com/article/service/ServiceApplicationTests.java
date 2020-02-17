@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.stream.IntStream;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ServiceApplicationTests {
@@ -16,8 +18,6 @@ public class ServiceApplicationTests {
 
     @Test
     public void contextLoads() {
-        creativeService.saveCreativeClassify("餐饮");
-        creativeService.saveCreativeClassify("测试创意");
     }
 
 }
