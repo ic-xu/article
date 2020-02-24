@@ -71,17 +71,17 @@ public class ArticleControllor {
         article.setStatus(0);
         System.out.println(article);
         article.setStatus(1);
-//        String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
-        article.setContent(null);
+        String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
+        article.setContent(contentHtml);
         if (articleServerImp.insertArticle(article)) {
-            ArticleContent articleContent = new ArticleContent();
-            articleContent.setArticleId(article.getId());
-            //拼接标题和时间等
-            String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
-            articleContent.setContent(contentHtml);
-            articleServerImp.saveContent(articleContent);
-            article.setContent(null);
-            articleServerImp.save(article);
+//            ArticleContent articleContent = new ArticleContent();
+//            articleContent.setArticleId(article.getId());
+//            //拼接标题和时间等
+////            String contentHtml = HtmlUtils.addTitleAndTime(article.getContent(), article.getArticleTitle(), TimeUtils.timeStamp2dateString(article.getHappenTime()));
+//            articleContent.setContent(contentHtml);
+//            articleServerImp.saveContent(articleContent);
+//            article.setContent(null);
+//            articleServerImp.save(article);
             return BaseResponseDto.success(true);
         }
         return BaseResponseDto.success(false);
