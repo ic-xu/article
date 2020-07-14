@@ -1,6 +1,6 @@
 package com.common.mvc.qa.entity;
 
-import com.common.mvc.member.entity.Member;
+import com.common.mvc.user.entity.Member;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 import org.springframework.data.annotation.Id;

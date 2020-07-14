@@ -1,6 +1,6 @@
 package com.common.mvc.route.bean;
 
-import com.common.mvc.member.entity.Member;
+import com.common.mvc.user.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

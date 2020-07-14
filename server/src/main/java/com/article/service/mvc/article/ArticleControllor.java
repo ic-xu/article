@@ -13,7 +13,7 @@ import com.common.mvc.article.entity.ArticleData;
 import com.common.mvc.article.service.ArticleServerImp;
 import com.common.mvc.article.service.CommentService;
 import com.common.mvc.article.service.ReplyCommentService;
-import com.common.mvc.member.service.MemberService;
+import com.common.mvc.user.service.MemberService;
 import com.common.utils.BaseResponseDto;
 import com.common.utils.IdWorker;
 

@@ -7,9 +7,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
-import com.common.mvc.member.entity.Member;
-import com.common.mvc.member.entity.MemberData;
-import com.common.mvc.member.service.MemberService;
+import com.common.mvc.user.entity.Member;
+import com.common.mvc.user.entity.MemberData;
+import com.common.mvc.user.service.MemberService;
 import com.common.utils.BaseResponseDto;
 
 import java.util.ArrayList;
@@ -48,10 +48,10 @@ public class MemberControllor {
     /**
      * 新增会员
      *
-     * @param member member
+     * @param member user
      * @return BaseResponseDto
      */
-    @ApiOperation("update member info")
+    @ApiOperation("update user info")
     @PostMapping("/update")
     public BaseResponseDto update(Member member) {
         Member insert = memberService.save(member);

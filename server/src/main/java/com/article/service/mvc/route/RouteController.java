@@ -2,8 +2,8 @@ package com.article.service.mvc.route;
 
 import com.alibaba.fastjson.JSON;
 import com.article.service.cache.ServerCache;
-import com.common.mvc.member.entity.Member;
-import com.common.mvc.member.service.MemberService;
+import com.common.mvc.user.entity.Member;
+import com.common.mvc.user.service.MemberService;
 import com.common.mvc.route.bean.*;
 import com.common.mvc.route.service.AccountService;
 import com.common.utils.BaseResponseDto;
