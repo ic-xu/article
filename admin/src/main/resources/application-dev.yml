@@ -30,19 +30,19 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: article
+      database: local
 #      password:
 #      username:
 
 
-#  #文件上传地址信息
-#  servlet:
-#   multipart:
-#     enabled: true
-#     max-file-size: 100MB
-#     # 单个文件的最大值
-#     max-request-size: 10MB
-#     # 上传文件总的最大值
+  #文件上传地址信息
+  servlet:
+   multipart:
+     enabled: true
+     max-file-size: 100MB
+     # 单个文件的最大值
+     max-request-size: 100MB
+     # 上传文件总的最大值
 
 
 
