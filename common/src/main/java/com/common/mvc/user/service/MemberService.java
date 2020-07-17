@@ -53,7 +53,7 @@ public class MemberService {
 
 
     public Page<Member> findAllByJop(String jop, PageRequest pageRequest) {
-        return memberRepository.findAllByJob(jop, pageRequest);
+        return memberRepository.findAllByJobName(jop, pageRequest);
     }
 
 
