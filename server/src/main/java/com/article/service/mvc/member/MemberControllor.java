@@ -78,6 +78,9 @@ public class MemberControllor {
         memberData.setMembersData(allByJop.getContent());
         List<MemberData> memberDatas = new ArrayList<>();
         memberDatas.add(memberData);
+        memberDatas.add(memberData);
+        memberDatas.add(memberData);
+        memberDatas.add(memberData);
         return BaseResponseDto.success(memberDatas);
     }
 
