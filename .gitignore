@@ -1,10 +1,33 @@
-*.iml
-**.gradle
-**/local.properties
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
+*.mvn
+*/target/
+*/.mvn
 .idea/**
-**/.idea
-**.DS_Store
-**/build
-**/captures
-**.externalNativeBuild
+.idea/*
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/

@@ -1,7 +1,7 @@
 package com.common.mvc.creative.entity;
 
 
-import com.common.mvc.member.entity.Member;
+import com.common.mvc.user.entity.Member;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

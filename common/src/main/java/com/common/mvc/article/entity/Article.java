@@ -6,10 +6,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
-import com.common.mvc.member.entity.Member;
+import com.common.mvc.user.entity.Member;
 
 import java.util.List;
-import java.util.Set;
 
 @Data
 @ApiModel

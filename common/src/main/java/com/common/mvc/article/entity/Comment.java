@@ -2,7 +2,7 @@ package com.common.mvc.article.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import com.common.mvc.member.entity.Member;
+import com.common.mvc.user.entity.Member;
 
 @Data
 public class Comment {
